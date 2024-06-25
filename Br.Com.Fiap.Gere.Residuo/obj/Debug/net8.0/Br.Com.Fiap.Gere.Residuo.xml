@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Br.Com.Fiap.Gere.Residuo</name>
+    </assembly>
+    <members>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.AgendaController.Get">
+            <summary>
+            Lista todas as agendas.
+            </summary>
+            <returns>Agendas criadas até o momento.</returns>
+            <response code="200">Retorna as agendas criadas até o momento.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.AgendaController.Get(System.Int32)">
+            <summary>
+            Lista uma agenda por ID.
+            </summary>
+            <returns>Agenda escolhida por ID.</returns>
+            <response code="200">Retorna a agenda pelo ID.</response>
+            <response code="404">A agenda de ID especificado não foi encontrada.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.AgendaController.GetAllReference(System.Int32,System.Int32)">
+            <summary>
+            Lista todas as agendas com paginação - Indexador: Primary Key.
+            </summary>
+            <returns>Agendas criadas até o momento.</returns>
+            <response code="200">Retorna as agendas criadas até o momento com paginação.</response>
+            <response code="404">Sem registros para esta referência.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.AgendaController.Post(Br.Com.Fiap.Gere.Residuo.ViewModel.Agenda.AgendaCreateViewModel)">
+            <summary>
+            Cria uma agenda.
+            </summary>
+            <returns>A agenda criada.</returns>
+            <response code="201">Retorna a agenda criada. O atributo EstaDisponivel das entidades Bairro, caminhão e motorista é atualizado para FALSE e uma notificação é criada.</response>
+            <response code="404">Bairro, Caminhão ou Motorista não encontrado.</response>
+            <response code="400">Bairro, Motorista ou Caminhão não está disponível ou possui conflito com agenda existente.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.AgendaController.Put(System.Int32,Br.Com.Fiap.Gere.Residuo.ViewModel.Agenda.AgendaUpdateViewModel)">
+            <summary>
+            Atualiza uma agenda existente.
+            </summary>
+            <param name="id">ID da agenda a ser atualizada.</param>
+            <returns>A agenda atualizada.</returns>
+            <response code="200">Retorna a agenda atualizada. Se statusColetaDeLixoAgendada = FINALIZADA, o atributo EstaDisponivel das entidades Bairro, Caminhão e Motorista é atualizado para TRUE, além de o percentual de coleta de lixo do bairro atrelado a agenda ser atualizado - com base no peso de lixo coletado ((PesoColetadoDeLixoKg / (PesoMedioLixeirasKg * QuantidadeLixeiras))* 100).</response>
+            <response code="404">A agenda, Bairro, Caminhão ou Motorista não foi encontrado.</response>
+            <response code="400">Bairro, Motorista ou Caminhão não está disponível ou possui conflito com agenda existente. Também pode ocorrer quando o ID no corpo da requisição diverge do ID na URL, ou a agenda já foi finalizada.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.AgendaController.Delete(System.Int32)">
+            <summary>
+            Deleta uma agenda.
+            </summary>
+            <param name="id">ID da agenda a ser deletada.</param>
+            <response code="204">Agenda deletada com sucesso.</response>
+            <response code="404">Agenda não encontrada.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível exclusão de agenda com registros associados.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.BairroController.Get">
+            <summary>
+            Lista todos os bairros.
+            </summary>
+            <returns>Bairros cadastrados até o momento.</returns>
+            <response code="200">Retorna os bairros cadastrados até o momento.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.BairroController.Get(System.Int32)">
+            <summary>
+            Lista um bairro por ID.
+            </summary>
+            <returns>Bairro escolhido por ID.</returns>
+            <response code="200">Retorna o bairro pelo ID.</response>
+            <response code="404">O bairro de ID especificado não foi encontrado.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.BairroController.GetAllReference(System.Int32,System.Int32)">
+            <summary>
+            Lista todos os bairros com paginação - Indexador: Primary Key.
+            </summary>
+            <returns>Bairros cadastrados até o momento.</returns>
+            <response code="200">Retorna os bairros cadastrados até o momento com paginação.</response>
+            <response code="404">Sem registros para esta referência.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.BairroController.Post(Br.Com.Fiap.Gere.Residuo.ViewModel.Bairro.BairroCreateViewModel)">
+            <summary>
+            Cria um bairro.
+            </summary>
+            <returns>O bairro criado.</returns>
+            <response code="201">Retorna o bairro criado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível nome de bairro repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.BairroController.Put(System.Int32,Br.Com.Fiap.Gere.Residuo.ViewModel.Bairro.BairroUpdateViewModel)">
+            <summary>
+            Atualiza um bairro existente.
+            </summary>
+            <param name="id">ID do bairro a ser atualizado.</param>
+            <returns>O bairro atualizado.</returns>
+            <response code="200">Retorna o bairro atualizado.</response>
+            <response code="404">O bairro não foi encontrado.</response>
+            <response code="400">O ID no corpo da requisição diverge do ID na URL.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível nome de bairro repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.BairroController.Delete(System.Int32)">
+            <summary>
+            Deleta um bairro.
+            </summary>
+            <param name="id">ID do bairro a ser deletado.</param>
+            <response code="204">Bairro deletado com sucesso.</response>
+            <response code="404">Bairro não encontrado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível exclusão de bairro com registros associados.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.CaminhaoController.Get">
+            <summary>
+            Lista todos os caminhões.
+            </summary>
+            <returns>Caminhões cadastrados até o momento.</returns>
+            <response code="200">Retorna os caminhões cadastrados até o momento.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.CaminhaoController.Get(System.Int32)">
+            <summary>
+            Lista um caminhão por ID.
+            </summary>
+            <returns>Caminhão escolhido por ID.</returns>
+            <response code="200">Retorna o caminhão pelo ID.</response>
+            <response code="404">O caminhão de ID especificado não foi encontrado.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.CaminhaoController.GetAllReference(System.Int32,System.Int32)">
+            <summary>
+            Lista todos os caminhões com paginação - Indexador: Primary Key.
+            </summary>
+            <returns>Caminhões cadastrados até o momento.</returns>
+            <response code="200">Retorna os caminhões cadastrados até o momento com paginação.</response>
+            <response code="404">Sem registros para esta referência.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.CaminhaoController.Post(Br.Com.Fiap.Gere.Residuo.ViewModel.Caminhao.CaminhaoCreateViewModel)">
+            <summary>
+            Cria um caminhão.
+            </summary>
+            <returns>O caminhão criado.</returns>
+            <response code="201">Retorna o caminhão criado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível placa de caminhão repetida.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.CaminhaoController.Put(System.Int32,Br.Com.Fiap.Gere.Residuo.ViewModel.Caminhao.CaminhaoUpdateViewModel)">
+            <summary>
+            Atualiza um caminhão existente.
+            </summary>
+            <param name="id">ID do caminhão a ser atualizado.</param>
+            <returns>O caminhão atualizado.</returns>
+            <response code="200">Retorna o caminhão atualizado.</response>
+            <response code="404">O caminhão não foi encontrado.</response>
+            <response code="400">O ID no corpo da requisição diverge do ID na URL.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível placa de caminhão repetida.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.CaminhaoController.Delete(System.Int32)">
+            <summary>
+            Deleta um caminhão.
+            </summary>
+            <param name="id">ID do caminhão a ser deletado.</param>
+            <response code="204">Caminhão deletado com sucesso.</response>
+            <response code="404">Caminhão não encontrado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível exclusão de caminhão com registros associados.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MoradorController.Get">
+            <summary>
+            Lista todos os moradores.
+            </summary>
+            <returns>Moradores cadastrados até o momento.</returns>
+            <response code="200">Retorna os moradores cadastrados até o momento.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MoradorController.Get(System.Int32)">
+            <summary>
+            Lista um morador por ID.
+            </summary>
+            <returns>Morador escolhido por ID.</returns>
+            <response code="200">Retorna o morador pelo ID.</response>
+            <response code="404">O morador de ID especificado não foi encontrado.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MoradorController.GetAllReference(System.Int32,System.Int32)">
+            <summary>
+            Lista todos os moradores com paginação - Indexador: Primary Key.
+            </summary>
+            <returns>Moradores cadastrados até o momento.</returns>
+            <response code="200">Retorna os moradores cadastrados até o momento com paginação.</response>
+            <response code="404">Sem registros para esta referência.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MoradorController.Post(Br.Com.Fiap.Gere.Residuo.ViewModel.Morador.MoradorCreateViewModel)">
+            <summary>
+            Cria um morador.
+            </summary>
+            <returns>O morador criado.</returns>
+            <response code="201">Retorna o morador criado.</response>
+            <response code="404">O Bairro de ID especificado não foi encontrado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível email repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MoradorController.Put(System.Int32,Br.Com.Fiap.Gere.Residuo.ViewModel.Morador.MoradorUpdateViewModel)">
+            <summary>
+            Atualiza um morador existente.
+            </summary>
+            <param name="id">ID do morador a ser atualizado.</param>
+            <returns>O morador atualizado.</returns>
+            <response code="200">Retorna o morador atualizado.</response>
+            <response code="404">O morador ou o bairro não foi encontrado.</response>
+            <response code="400">O ID no corpo da requisição diverge do ID na URL.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível email repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MoradorController.Delete(System.Int32)">
+            <summary>
+            Deleta um morador.
+            </summary>
+            <param name="id">ID do morador a ser deletado.</param>
+            <response code="204">Morador deletado com sucesso.</response>
+            <response code="404">O morador de ID especificado não foi encontrado.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MotoristaController.Get">
+            <summary>
+            Lista todos os motoristas.
+            </summary>
+            <returns>Motoristas cadastrados até o momento.</returns>
+            <response code="200">Retorna os motoristas cadastrados até o momento.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MotoristaController.Get(System.Int32)">
+            <summary>
+            Lista um motorista por ID.
+            </summary>
+            <returns>Motorista escolhido por ID.</returns>
+            <response code="200">Retorna o motorista pelo ID.</response>
+            <response code="404">O motorista de ID especificado não foi encontrado.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MotoristaController.GetAllReference(System.Int32,System.Int32)">
+            <summary>
+            Lista todos os motoristas com paginação - Indexador: Primary Key.
+            </summary>
+            <returns>Motoristas cadastrados até o momento.</returns>
+            <response code="200">Retorna os motoristas cadastrados até o momento com paginação.</response>
+            <response code="404">Sem registros para esta referência.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MotoristaController.Post(Br.Com.Fiap.Gere.Residuo.ViewModel.Motorista.MotoristaCreateViewModel)">
+            <summary>
+            Cria um motorista.
+            </summary>
+            <returns>O motorista criado.</returns>
+            <response code="201">Retorna o motorista criado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível número de celular ou CPF repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MotoristaController.Put(System.Int32,Br.Com.Fiap.Gere.Residuo.ViewModel.Motorista.MotoristaUpdateViewModel)">
+            <summary>
+            Atualiza um motorista existente.
+            </summary>
+            <param name="id">ID do motorista a ser atualizado.</param>
+            <returns>O motorista atualizado.</returns>
+            <response code="200">Retorna o motorista atualizado.</response>
+            <response code="404">O motorista não foi encontrado.</response>
+            <response code="400">O ID no corpo da requisição diverge do ID na URL.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível número de celular ou CPF repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.MotoristaController.Delete(System.Int32)">
+            <summary>
+            Deleta um motorista.
+            </summary>
+            <param name="id">ID do motorista a ser deletado.</param>
+            <response code="204">Motorista deletado com sucesso.</response>
+            <response code="404">O motorista de ID especificado não foi encontrado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível exclusão de motorista com registros associados.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.NotificacaoController.Get">
+            <summary>
+            Lista todas as notificações.
+            </summary>
+            <returns>Notificações cadastradas até o momento.</returns>
+            <response code="200">Retorna as notificações cadastradas até o momento.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.NotificacaoController.Get(System.Int32)">
+            <summary>
+            Lista uma notificação por ID.
+            </summary>
+            <returns>Notificação escolhida por ID.</returns>
+            <response code="200">Retorna a notificação pelo ID.</response>
+            <response code="404">A notificação de ID especificado não foi encontrada.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.NotificacaoController.GetAllReference(System.Int32,System.Int32)">
+            <summary>
+            Lista todas as notificações com paginação - Indexador: Primary Key.
+            </summary>
+            <returns>Notificações cadastradas até o momento.</returns>
+            <response code="200">Retorna as notificações cadastradas até o momento com paginação.</response>
+            <response code="404">Sem registros para esta referência.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.NotificacaoController.Delete(System.Int32)">
+            <summary>
+            Deleta uma notificação.
+            </summary>
+            <param name="id">ID da notificação a ser deletada.</param>
+            <response code="204">Notificação deletada com sucesso. Além disso, dispara um email para cada morador utilizando o protocolo SMTP (servidor de teste utilizado: MailTrap)</response>
+            <response code="404">A notificação de ID especificado não foi encontrada.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.UsuarioController.Get">
+            <summary>
+            Lista todos os usuários (obsoleto).
+            </summary>
+            <returns>Lista de todos os usuários.</returns>
+            <response code="200">Retorna uma lista de usuários.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.UsuarioController.Get(System.Int32)">
+            <summary>
+            Obtém um usuário por ID.
+            </summary>
+            <param name="id">ID do usuário.</param>
+            <returns>O usuário com o ID especificado.</returns>
+            <response code="200">Retorna o usuário especificado.</response>
+            <response code="404">O usuário com o ID especificado não foi encontrado.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.UsuarioController.GetAllReference(System.Int32,System.Int32)">
+            <summary>
+            Lista todos os usuários com paginação (Indexador: Primary Key).
+            </summary>
+            <param name="referencia">Referência para a paginação.</param>
+            <param name="tamanho">Tamanho da página.</param>
+            <returns>Lista de usuários com paginação.</returns>
+            <response code="200">Retorna uma lista de usuários com paginação.</response>
+            <response code="404">Sem registros para esta referência.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.UsuarioController.Post(Br.Com.Fiap.Gere.Residuo.ViewModel.Usuario.UsuarioCreateViewModel)">
+            <summary>
+            Cria um novo usuário.
+            </summary>
+            <returns>O novo usuário criado.</returns>
+            <response code="201">Usuário criado com sucesso.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível usuário com email repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.UsuarioController.Login(Br.Com.Fiap.Gere.Residuo.ViewModel.Usuario.UsuarioLoginViewModel)">
+            <summary>
+            Autentica um usuário.
+            </summary>
+            <returns>O token de autenticação.</returns>
+            <response code="200">Usuário autenticado com sucesso.</response>
+            <response code="401">Email ou senha incorretos.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.UsuarioController.Put(System.Int32,Br.Com.Fiap.Gere.Residuo.ViewModel.Usuario.UsuarioUpdateViewModel)">
+            <summary>
+            Atualiza um usuário.
+            </summary>
+            <param name="id">ID do usuário a ser atualizado.</param>
+            <returns>O usuário atualizado.</returns>
+            <response code="200">Usuário atualizado com sucesso.</response>
+            <response code="400">O ID passado na URL diverge do ID passado no corpo da requisição.</response>
+            <response code="404">O usuário com o ID especificado não foi encontrado.</response>
+            <response code="409">Erro de integridade no banco de dados. Possível usuário com email repetido.</response>
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Exclui um usuário.
+            </summary>
+            <param name="id">ID do usuário a ser excluído.</param>
+            <returns>Nenhum conteúdo.</returns>
+            <response code="204">Usuário excluído com sucesso.</response>
+            <response code="404">O usuário com o ID especificado não foi encontrado.</response>
+        </member>
+        <member name="T:Br.Com.Fiap.Gere.Residuo.Migrations.FiapGereResiduoSchemaV1">
+            <inheritdoc />
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Migrations.FiapGereResiduoSchemaV1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Migrations.FiapGereResiduoSchemaV1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Br.Com.Fiap.Gere.Residuo.Migrations.FiapGereResiduoSchemaV1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

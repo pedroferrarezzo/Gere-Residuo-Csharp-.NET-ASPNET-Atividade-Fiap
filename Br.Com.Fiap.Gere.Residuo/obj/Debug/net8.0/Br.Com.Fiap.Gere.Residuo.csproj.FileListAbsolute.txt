@@ -1,0 +1,633 @@
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.json
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.exe
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.deps.json
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.runtimeconfig.json
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.Br.Com.Fiap.Gere.Residuo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.build.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\scopedcss\bundle\Br.Com.Fiap.Gere.Residuo.styles.css
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.F.A3202702.Up2Date
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\refint\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.genruntimeconfig.cache
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\ref\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Humanizer.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.json
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.exe
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.deps.json
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.runtimeconfig.json
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Humanizer.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.AssemblyReference.cache
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfoInputs.cache
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfo.cs
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.CoreCompileInputs.cache
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.Br.Com.Fiap.Gere.Residuo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.build.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\scopedcss\bundle\Br.Com.Fiap.Gere.Residuo.styles.css
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.F.A3202702.Up2Date
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\refint\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.genruntimeconfig.cache
+C:\Users\pedrof\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\ref\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\OneDrive\Documentos\FIAP - DEV\ATIVIDADES\Segundo Ano\Fase 4\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.exe
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.deps.json
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.runtimeconfig.json
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Humanizer.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfo.cs
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.Br.Com.Fiap.Gere.Residuo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.build.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\scopedcss\bundle\Br.Com.Fiap.Gere.Residuo.styles.css
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.F.A3202702.Up2Date
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\refint\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.genruntimeconfig.cache
+C:\Users\User\Downloads\Atividade Final\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\ref\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.exe
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.deps.json
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.runtimeconfig.json
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Humanizer.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfo.cs
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.Br.Com.Fiap.Gere.Residuo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.build.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\scopedcss\bundle\Br.Com.Fiap.Gere.Residuo.styles.css
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.F.A3202702.Up2Date
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\refint\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.genruntimeconfig.cache
+C:\Users\User\Downloads\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\ref\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.exe
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.deps.json
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.runtimeconfig.json
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Humanizer.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.AssemblyInfo.cs
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.Br.Com.Fiap.Gere.Residuo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.build.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Br.Com.Fiap.Gere.Residuo.props
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\scopedcss\bundle\Br.Com.Fiap.Gere.Residuo.styles.css
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.F.A3202702.Up2Date
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\refint\Br.Com.Fiap.Gere.Residuo.dll
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.xml
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.pdb
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\Br.Com.Fiap.Gere.Residuo.genruntimeconfig.cache
+C:\Users\User\Downloads\FIAP UPLOAD\Br.Com.Fiap.Gere.Residuo\obj\Debug\net8.0\ref\Br.Com.Fiap.Gere.Residuo.dll
