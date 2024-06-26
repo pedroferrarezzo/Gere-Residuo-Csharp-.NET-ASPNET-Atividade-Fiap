@@ -110,7 +110,7 @@ requisição de resposta com a URI de consulta correspondente.
 - O arquivo Dockerfile pode ser encontrado na pasta do projeto:
 “Br.Com.Fiap.Gere.Residuo/Dockerfile”;
 - A collection.json do Insomnia pode ser encontrada na pasta:
-“INSOMNIA/gereresiduocollection.json”;
+“INSOMNIA/gereresiduocollection.json”.
 
 
 
