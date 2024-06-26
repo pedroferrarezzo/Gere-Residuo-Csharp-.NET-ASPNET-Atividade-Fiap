@@ -68,7 +68,7 @@ utilizando “DataAnnotations” – prontas ou customizadas;
 personalizadas;
 ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/fac37437-504c-4a41-a10f-1116677f59fc)
 - O conceito de “Migrations” foi implementado, utilizando o “Fluent API”
-na classe “DatabaseContext” e os “DbSets”;
+na classe “DatabaseContext” e os “DbSets”;\
 ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/cce336ca-1df3-4b1d-93c6-471c8bf50a59)
 - Utilizando o “xUnit”, e a biblioteca “MOQ” para criar um DbContext
 mockado, quatro testes unitários foram implementados, por controller,
