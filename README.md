@@ -88,7 +88,7 @@ para validar os seguintes critérios em Actions GET:
   - Três registros retornados.\
  ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/9706962d-c1fa-4119-865b-5363e223bdbd)
  ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/3404c5a9-5583-40ca-b02c-bd519d544f4c)
-- Execução de todos os testes a partir do “Text Explorer”.
+- Execução de todos os testes a partir do “Text Explorer”.\
 ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/c75d7825-c419-4afd-87d9-b275cc9cdb3e)
 
 
