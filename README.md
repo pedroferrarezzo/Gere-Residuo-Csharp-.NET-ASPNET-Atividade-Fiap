@@ -16,15 +16,31 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 - É vital que sua solução seja integrada a um banco de dados e que seja utilizado o conceito de migrações para assegurar uma gestão eficiente e escalável do esquema de banco de dados ao longo do tempo;
 - Você também deve considerar a aplicação de outras práticas avançadas presentes no conteúdo do curso, como a otimização de consultas (paginação) melhorar o desempenho."
 
+# TECNOLOGIAS UTILIZADAS
+- .NET 8.0;
+- Projeto ASP.NET Core Web API;
+- EntityFramework ORM 8.0;
+- Swagger;
+- Nuget;
+- Docker;
+- xUnit.
+
+# BOAS PRÁTICAS E DESIGN PATTERNS UTILIZADOS
+
+- Model View ViewModel - MVVM;
+- Services;
+- Repositories;
+- MVC - Model, View e Controller;
+- Exceptions customizadas de acordo com as regras de negócio;
+- Versionamento do banco de dados com Migrations;
+- Injeção de dependência;
+- Implementação de testes unitários com xUnit.
+
 # MODELO DE ENTIDADE E RELACIONAMENTO
 ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/c8dfeffb-d8f0-4dd4-bbbf-ea9f44b4a158)
 
 # DETALHES DO PROJETO
 
-- O arquivo Dockerfile pode ser encontrado na pasta do projeto:
-“Br.Com.Fiap.Gere.Residuo/Dockerfile”;
-- A collection.json do Insomnia pode ser encontrada na pasta:
-“INSOMNIA/gereresiduocollection.json”;
 - A segurança com autenticação Stateless foi implementada em todo o
 projeto. Por padrão, a regra para todos os endpoints (exceto o de usuário)
 é que requisições: GET – Roles USER, OPERADOR e ADMIN;
@@ -90,7 +106,11 @@ requisição de resposta com a URI de consulta correspondente.
 ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/479bf860-3552-438c-bfab-ff22d66dc5fd)
 
 
-
+# INFORMAÇÕES FINAS
+- O arquivo Dockerfile pode ser encontrado na pasta do projeto:
+“Br.Com.Fiap.Gere.Residuo/Dockerfile”;
+- A collection.json do Insomnia pode ser encontrada na pasta:
+“INSOMNIA/gereresiduocollection.json”;
 
 
 
