@@ -99,8 +99,9 @@ builder.Services.Configure<ApiBehaviorOptions>(options
 
 #region BANCO DE DADOS
 var connectionString = builder.Configuration.GetConnectionString("DatabaseConnection");
+var enableSensitiveDataLogging = builder.Environment.IsStaging() || builder.Environment.IsDevelopment();
 builder.Services.AddDbContext<DatabaseContext>(
-    opt => opt.UseOracle(connectionString).EnableSensitiveDataLogging(true)
+    opt => opt.UseOracle(connectionString).EnableSensitiveDataLogging(enableSensitiveDataLogging)
 );
 #endregion
 

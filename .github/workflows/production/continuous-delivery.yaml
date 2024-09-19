@@ -1,0 +1,60 @@
+name: CD Pipeline - Production
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    if: github.event.head_commit.message == 'PR-ACK-PRODUCTION'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+            username: ${{ secrets.DOCKERHUB_USERNAME }}
+            password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./Br.Com.Fiap.Gere.Residuo
+          push: true
+          tags: ferrarezzodev/GERE-RESIDUO-API-PRODUCTION:${{ github.sha }}
+
+        env:
+          DOCKER_BUILDKIT: 1
+
+      - name: Deploy to remote server
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /gere-residuo-app/production
+
+            curl -O https://raw.githubusercontent.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/master/Docker/docker-compose.yml
+
+            cat <<EOL > .env
+ORACLE_PASSWORD=${{ secrets.ORACLE_PASSWORD }}
+ASPNETCORE_ENVIRONMENT=PRODUCTION
+TAG_IMAGE=${{ github.sha }}
+PORT_INGRESS_HOST_DB=${{ secrets.PORT_INGRESS_HOST_DB_PRODUCTION }}
+PORT_INGRESS_CONTAINER_DB=${{ secrets.PORT_INGRESS_CONTAINER_DB_PRODUCTION }}
+PORT_INGRESS_HOST_API=${{ secrets.PORT_INGRESS_HOST_API_PRODUCTION }}
+PORT_INGRESS_CONTAINER_API=${{ secrets.PORT_INGRESS_CONTAINER_API_PRODUCTION }}
+ConnectionStrings__DatabaseConnection=${{ secrets.DB_CONNECTION_PRODUCTION }}
+ConnectionStrings__MailTrapUser=${{ secrets.MAILTRAP_USER }}
+ConnectionStrings__MailTrapPassword=${{ secrets.MAILTRAP_PASSWORD }}
+ConnectionStrings__MailTrapHost=${{ secrets.MAILTRAP_HOST }}
+ConnectionStrings__MailTrapPort=${{ secrets.MAILTRAP_PORT }}
+ConnectionStrings__MailTrapSender=${{ secrets.MAILTRAP_SENDER }}
+EOL
+
+            docker-compose -f docker-compose.yml up -d

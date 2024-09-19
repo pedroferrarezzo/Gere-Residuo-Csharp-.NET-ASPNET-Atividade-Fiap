@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+
+  oracledb:
+    image: gvenzl/oracle-xe
+    container_name: "ORACLE-DB-${ASPNETCORE_ENVIRONMENT}"
+    ports:
+      - "${PORT_INGRESS_HOST_DB}:${PORT_INGRESS_CONTAINER_DB}"
+    volumes:
+      - "ORACLE_DATA_${ASPNETCORE_ENVIRONMENT}:/opt/oracle/oradata"
+      - "./SCRIPTS-SQL-${ASPNETCORE_ENVIRONMENT}:/container-entrypoint-initdb.d"
+    networks:
+      - gere-residuo-network
+    env_file:
+      - .env
+
+  gere.residuo.api:
+    image: "ferrarezzodev/GERE-RESIDUO-API-${ASPNETCORE_ENVIRONMENT}:${TAG_IMAGE}"
+    container_name: "GERE-RESIDUO-API-${ASPNETCORE_ENVIRONMENT}"
+    ports:
+      - "${PORT_INGRESS_HOST_API}:${PORT_INGRESS_CONTAINER_API}"
+    networks:
+      - gere-residuo-network
+    env_file:
+      - .env
+
+networks:
+  gere-residuo-network:
+
+volumes:
+  ORACLE_DATA_STAGING:
+    driver: local
+
+  ORACLE_DATA_PRODUCTION:
+    driver: local
