@@ -49,8 +49,10 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /gere-residuo-app/production
-
+            mkdir SCRIPTS-SQL-PRODUCTION
+            
             curl -O https://raw.githubusercontent.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/refs/heads/master/Docker/docker-compose.yaml
+            curl -O https://raw.githubusercontent.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/refs/heads/master/Docker/SCRIPTS-SQL-PRODUCTION/init-script.sql --output-dir SCRIPTS-SQL-PRODUCTION
 
             echo "ORACLE_PASSWORD=${{ secrets.ORACLE_PASSWORD }}" > .env
             echo "ASPNETCORE_ENVIRONMENT=PRODUCTION" >> .env
