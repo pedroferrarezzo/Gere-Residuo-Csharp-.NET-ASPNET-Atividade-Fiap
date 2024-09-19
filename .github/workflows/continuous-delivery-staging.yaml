@@ -1,0 +1,72 @@
+name: CD Pipeline - Staging
+
+on:
+  pull_request:
+    branches:
+      - staging
+    types:
+      - closed
+
+jobs:
+  build-and-push:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./Br.Com.Fiap.Gere.Residuo
+          push: true
+          tags: ferrarezzodev/gere-residuo-api-staging:${{ github.sha }}
+
+        env:
+          DOCKER_BUILDKIT: 1
+
+  deploy:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    needs: build-and-push
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to remote server
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /gere-residuo-app/staging
+            mkdir SCRIPTS-SQL-STAGING
+            
+            curl -O https://raw.githubusercontent.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/refs/heads/master/Docker/docker-compose.yaml
+            curl -O https://raw.githubusercontent.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/refs/heads/master/Docker/SCRIPTS-SQL-STAGING/init-script.sql --output-dir SCRIPTS-SQL-STAGING
+
+            echo "ORACLE_PASSWORD=${{ secrets.ORACLE_PASSWORD }}" > .env
+            echo "ASPNETCORE_ENVIRONMENT=STAGING" >> .env
+            echo "ASPNETCORE_ENVIRONMENT_LOWER=staging" >> .env
+            echo "TAG_IMAGE=${{ github.sha }}" >> .env
+            echo "PORT_INGRESS_HOST_DB=${{ secrets.PORT_INGRESS_HOST_DB_STAGING }}" >> .env
+            echo "PORT_INGRESS_CONTAINER_DB=${{ secrets.PORT_INGRESS_CONTAINER_DB_STAGING }}" >> .env
+            echo "PORT_INGRESS_HOST_API=${{ secrets.PORT_INGRESS_HOST_API_STAGING }}" >> .env
+            echo "PORT_INGRESS_CONTAINER_API=${{ secrets.PORT_INGRESS_CONTAINER_API_STAGING }}" >> .env
+            echo "ConnectionStrings__DatabaseConnection=${{ secrets.DB_CONNECTION_STAGING }}" >> .env
+            echo "ConnectionStrings__MailTrapUser=${{ secrets.MAILTRAP_USER }}" >> .env
+            echo "ConnectionStrings__MailTrapPassword=${{ secrets.MAILTRAP_PASSWORD }}" >> .env
+            echo "ConnectionStrings__MailTrapHost=${{ secrets.MAILTRAP_HOST }}" >> .env
+            echo "ConnectionStrings__MailTrapPort=${{ secrets.MAILTRAP_PORT }}" >> .env
+            echo "ConnectionStrings__MailTrapSender=${{ secrets.MAILTRAP_SENDER }}" >> .env
+
+            docker compose up -d
