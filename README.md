@@ -122,19 +122,3 @@ requisição de resposta com a URI de consulta correspondente.
 “Br.Com.Fiap.Gere.Residuo/Dockerfile”;
 - A collection.json do Insomnia pode ser encontrada na pasta:
 “INSOMNIA/gereresiduocollection.json”.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
