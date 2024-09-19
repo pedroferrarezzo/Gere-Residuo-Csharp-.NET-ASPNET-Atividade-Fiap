@@ -16,7 +16,7 @@ services:
       - .env
 
   gere.residuo.api:
-    image: "ferrarezzodev/GERE-RESIDUO-API-${ASPNETCORE_ENVIRONMENT}:${TAG_IMAGE}"
+    image: "ferrarezzodev/gere-residuo-api-${ASPNETCORE_ENVIRONMENT_LOWER}:${TAG_IMAGE}"
     container_name: "GERE-RESIDUO-API-${ASPNETCORE_ENVIRONMENT}"
     ports:
       - "${PORT_INGRESS_HOST_API}:${PORT_INGRESS_CONTAINER_API}"
