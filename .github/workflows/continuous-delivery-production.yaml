@@ -27,7 +27,7 @@ jobs:
         with:
           context: ./Br.Com.Fiap.Gere.Residuo
           push: true
-          tags: ferrarezzodev/GERE-RESIDUO-API-PRODUCTION:${{ github.sha }}
+          tags: ferrarezzodev/gere-residuo-api-production:${{ github.sha }}
 
         env:
           DOCKER_BUILDKIT: 1
@@ -54,6 +54,7 @@ jobs:
 
             echo "ORACLE_PASSWORD=${{ secrets.ORACLE_PASSWORD }}" >> .env
             echo "ASPNETCORE_ENVIRONMENT=PRODUCTION" >> .env
+            echo "ASPNETCORE_ENVIRONMENT_LOWER=production" >> .env
             echo "TAG_IMAGE=${{ github.sha }}" >> .env
             echo "PORT_INGRESS_HOST_DB=${{ secrets.PORT_INGRESS_HOST_DB_PRODUCTION }}" >> .env
             echo "PORT_INGRESS_CONTAINER_DB=${{ secrets.PORT_INGRESS_CONTAINER_DB_PRODUCTION }}" >> .env
