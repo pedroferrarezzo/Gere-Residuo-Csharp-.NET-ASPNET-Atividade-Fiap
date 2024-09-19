@@ -92,6 +92,8 @@ para validar os seguintes critérios em Actions GET:
 ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/c75d7825-c419-4afd-87d9-b275cc9cdb3e)
 
 
+# CD
+
 # OUTROS DETALHES DO PROJETO
 
 - Todos os controllers possuem um método GET datado para a versão
