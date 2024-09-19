@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Br.Com.Fiap.Gere.Residuo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a2aa7c1f2ea3e9acd2523543812c3f4622da5f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+863f9b3446ef1056f6dfb1bee4a96c056d2e8601")]
 [assembly: System.Reflection.AssemblyProductAttribute("Br.Com.Fiap.Gere.Residuo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Br.Com.Fiap.Gere.Residuo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
