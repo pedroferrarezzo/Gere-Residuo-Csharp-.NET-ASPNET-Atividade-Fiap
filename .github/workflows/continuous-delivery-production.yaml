@@ -53,20 +53,18 @@ jobs:
 
             curl -O https://raw.githubusercontent.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/master/Docker/docker-compose.yml
 
-            cat <<EOL > .env
-ORACLE_PASSWORD=${{ secrets.ORACLE_PASSWORD }}
-ASPNETCORE_ENVIRONMENT=PRODUCTION
-TAG_IMAGE=${{ github.sha }}
-PORT_INGRESS_HOST_DB=${{ secrets.PORT_INGRESS_HOST_DB_PRODUCTION }}
-PORT_INGRESS_CONTAINER_DB=${{ secrets.PORT_INGRESS_CONTAINER_DB_PRODUCTION }}
-PORT_INGRESS_HOST_API=${{ secrets.PORT_INGRESS_HOST_API_PRODUCTION }}
-PORT_INGRESS_CONTAINER_API=${{ secrets.PORT_INGRESS_CONTAINER_API_PRODUCTION }}
-ConnectionStrings__DatabaseConnection=${{ secrets.DB_CONNECTION_PRODUCTION }}
-ConnectionStrings__MailTrapUser=${{ secrets.MAILTRAP_USER }}
-ConnectionStrings__MailTrapPassword=${{ secrets.MAILTRAP_PASSWORD }}
-ConnectionStrings__MailTrapHost=${{ secrets.MAILTRAP_HOST }}
-ConnectionStrings__MailTrapPort=${{ secrets.MAILTRAP_PORT }}
-ConnectionStrings__MailTrapSender=${{ secrets.MAILTRAP_SENDER }}
-EOL
+            echo "ORACLE_PASSWORD=${{ secrets.ORACLE_PASSWORD }}" >> .env
+            echo "ASPNETCORE_ENVIRONMENT=PRODUCTION" >> .env
+            echo "TAG_IMAGE=${{ github.sha }}" >> .env
+            echo "PORT_INGRESS_HOST_DB=${{ secrets.PORT_INGRESS_HOST_DB_PRODUCTION }}" >> .env
+            echo "PORT_INGRESS_CONTAINER_DB=${{ secrets.PORT_INGRESS_CONTAINER_DB_PRODUCTION }}" >> .env
+            echo "PORT_INGRESS_HOST_API=${{ secrets.PORT_INGRESS_HOST_API_PRODUCTION }}" >> .env
+            echo "PORT_INGRESS_CONTAINER_API=${{ secrets.PORT_INGRESS_CONTAINER_API_PRODUCTION }}" >> .env
+            echo "ConnectionStrings__DatabaseConnection=${{ secrets.DB_CONNECTION_PRODUCTION }}" >> .env
+            echo "ConnectionStrings__MailTrapUser=${{ secrets.MAILTRAP_USER }}" >> .env
+            echo "ConnectionStrings__MailTrapPassword=${{ secrets.MAILTRAP_PASSWORD }}" >> .env
+            echo "ConnectionStrings__MailTrapHost=${{ secrets.MAILTRAP_HOST }}" >> .env
+            echo "ConnectionStrings__MailTrapPort=${{ secrets.MAILTRAP_PORT }}" >> .env
+            echo "ConnectionStrings__MailTrapSender=${{ secrets.MAILTRAP_SENDER }}" >> .env
 
             docker-compose -f docker-compose.yml up -d
