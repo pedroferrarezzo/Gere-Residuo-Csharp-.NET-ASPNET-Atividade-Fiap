@@ -16,4 +16,4 @@ jobs:
           dotnet-version: '8.0'
 
       - name: Run Unit Tests
-        run: dotnet test ./GereResiduoApiControllerTests/GereResiduoApiControllerTests.csproj --verbosity normal
+        run: dotnet test ./GereResiduoApiControllerTests/GereResiduoApiControllerTests.csproj
