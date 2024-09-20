@@ -115,7 +115,7 @@ o objeto criado/atualizado, além de um atributo location no header da
 requisição de resposta com a URI de consulta correspondente.
 ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/479bf860-3552-438c-bfab-ff22d66dc5fd)
 
-# CICD -         
+# CICD -               
 
 # INFORMAÇÕES FINAS
 - O arquivo Dockerfile pode ser encontrado na pasta do projeto:
