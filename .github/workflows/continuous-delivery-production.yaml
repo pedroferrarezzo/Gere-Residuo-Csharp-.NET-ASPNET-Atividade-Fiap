@@ -113,7 +113,6 @@ jobs:
 
               echo "Gere Residuo API Rollback Failed."
               exit 1
-
             fi
 
             echo "Both containers are running successfully."
@@ -128,8 +127,8 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Pull the image with github.sha tag
         run: |
