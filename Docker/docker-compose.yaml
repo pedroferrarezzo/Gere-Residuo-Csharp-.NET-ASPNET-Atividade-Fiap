@@ -34,3 +34,6 @@ volumes:
 
   ORACLE_DATA_PRODUCTION:
     driver: local
+
+  ORACLE_DATA_DEVELOPMENT:
+    driver: local
