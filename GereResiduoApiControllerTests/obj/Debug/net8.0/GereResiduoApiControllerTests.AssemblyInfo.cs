@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GereResiduoApiControllerTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9789be2ba8af5659c072daaa17409e41299cec93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50edca71f429c018442bc76921024986b1b5d4c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GereResiduoApiControllerTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GereResiduoApiControllerTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

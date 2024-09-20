@@ -227,7 +227,7 @@ namespace GereResiduoApiControllerTests
 
             Assert.NotNull(okResult);
 
-            Assert.Equal(300, okResult.StatusCode);
+            Assert.Equal(200, okResult.StatusCode);
         }
 
     }
