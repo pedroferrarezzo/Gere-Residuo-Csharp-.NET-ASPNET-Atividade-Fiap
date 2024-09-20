@@ -141,3 +141,15 @@ jobs:
       - name: Push the new :latest tag
         run: |
           docker push ferrarezzodev/gere-residuo-api-production:latest
+
+  cleanup-unused-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cleaning images
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            docker image prune -a
