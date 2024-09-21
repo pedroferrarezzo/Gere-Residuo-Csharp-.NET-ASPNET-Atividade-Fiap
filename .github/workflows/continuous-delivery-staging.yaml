@@ -70,3 +70,87 @@ jobs:
             echo "ConnectionStrings__MailTrapSender=${{ secrets.MAILTRAP_SENDER }}" >> .env
 
             docker compose up -d
+
+  validate-containers:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Delay before running validation
+        run: sleep 60
+
+      - name: Validate if Docker containers are running
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+
+            oracle_status=$(docker inspect --format='{{.State.Running}}' ORACLE-DB-STAGING)
+            if [ "$oracle_status" != "true" ]; then
+              echo "Oracle database container is not running."
+              exit 1
+            fi
+            
+            api_status=$(docker inspect --format='{{.State.Running}}' GERE-RESIDUO-API-STAGING)
+            if [ "$api_status" != "true" ]; then
+
+              # ROLLBACK
+
+              cd /gere-residuo-app/staging
+              docker compose down
+              sed -i 's/^TAG_IMAGE=.*/TAG_IMAGE=latest/' .env
+              docker compose up -d
+
+              sleep 60
+
+              api_status=$(docker inspect --format='{{.State.Running}}' GERE-RESIDUO-API-STAGING)
+
+              if [ "$api_status" == "true" ]; then
+                echo "Gere Residuo API Rollback Success."
+                exit 1
+              fi
+
+              echo "Gere Residuo API Rollback Failed."
+              exit 1
+            fi
+
+            echo "Both containers are running successfully."
+
+  rename-image:
+    runs-on: ubuntu-latest
+    needs: validate-containers
+    steps:
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Log in to DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Pull the image with github.sha tag
+        run: |
+          docker pull ferrarezzodev/gere-residuo-api-staging:${{ github.sha }}
+
+      - name: Retag image to latest
+        run: |
+          docker tag ferrarezzodev/gere-residuo-api-staging:${{ github.sha }} ferrarezzodev/gere-residuo-api-staging:latest
+
+      - name: Push the new :latest tag
+        run: |
+          docker push ferrarezzodev/gere-residuo-api-staging:latest
+
+  cleanup-unused-images:
+    runs-on: ubuntu-latest
+    needs: rename-image
+    steps:
+      - name: Cleaning images
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            docker image prune -a -f
