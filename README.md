@@ -249,5 +249,5 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   - `Docker/SCRIPTS-SQL-DEVELOPMENT`;
   - `Docker/SCRIPTS-SQL-PRODUCTION`;
   - `Docker/SCRIPTS-SQL-STAGING`.
-- A imagem utilizado para o container do banco de dados (Oracle XE) é `gvenzl/oracle-xe -> https://hub.docker.com/r/gvenzl/oracle-xe`
+- A imagem utilizado para o container do banco de dados (Oracle XE) é `gvenzl/oracle-xe` -> https://hub.docker.com/r/gvenzl/oracle-xe
 - A `collection.json` do Insomnia pode ser encontrada na pasta `INSOMNIA/gereresiduocollection.json`.
