@@ -129,6 +129,9 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 
 # CI/CD
 
+### Arquitetura da Pipeline
+![arquitetura](https://github.com/user-attachments/assets/4fe428d6-065a-40a4-a605-c74213a7c715)
+
 ### Criação da infraestrutura de deploy
 
 - Criar uma máquina virtual no Azure:
