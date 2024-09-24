@@ -52,7 +52,8 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   usuário (PUT), visualização (GET) ou exclusão (DELETE) necessita de
   um token JWT com a Role ADMIN;
 - O tempo de expiração do Token JWT padrão é de 5 minutos;
-- Anatomia de um Token JWT de exemplo;![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/a6ae8f4c-8bce-4086-a4e3-fb42b6f613b0)
+- Anatomia de um Token JWT de exemplo;
+  ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/a6ae8f4c-8bce-4086-a4e3-fb42b6f613b0)
 - Dados sensíveis foram inseridos no arquivo “appsettings.json”, como:
   strings de conexão com o banco de dados, usuário e senha SMTP...
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/329b51ac-d143-4c93-9308-7924deed159a)
@@ -60,8 +61,10 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 # SWAGGER
 
 - Toda a API está devidamente documentada no Swagger. A UI dele Inclui:
-  - Versionamento;![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/8ad2b1d5-e6ef-4b8d-aed2-104b4cda7a4b)
-  - Botão de autenticação “Token JWT”;![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/b7680863-6178-4b22-8952-3436cbc6cc48)
+  - Versionamento;
+    ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/8ad2b1d5-e6ef-4b8d-aed2-104b4cda7a4b)
+  - Botão de autenticação “Token JWT”;
+    ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/b7680863-6178-4b22-8952-3436cbc6cc48)
   - Comentários personalizados por endpoint.
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/adbe7981-e68f-4b5f-ae42-9bf3c706a5c7)
 
@@ -240,7 +243,11 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 
 # INFORMAÇÕES FINAS
 
-- O arquivo Dockerfile pode ser encontrado na pasta do projeto:
-  “Br.Com.Fiap.Gere.Residuo/Dockerfile”;
-- A collection.json do Insomnia pode ser encontrada na pasta:
-  “INSOMNIA/gereresiduocollection.json”.
+- O arquivo `docker-compose.yaml` pode ser encontrado na pasta `Docker`. Ele consome variáveis de ambiente presentes no arquivo `.env`;
+- O arquivo `Dockerfile` pode ser encontrado na pasta do projeto da API `Br.Com.Fiap.Gere.Residuo/Dockerfile`;
+- Os scripts de inicialização dos bancos de dados de cada ambiente podem ser encontrado nas pastas:
+  - `Docker/SCRIPTS-SQL-DEVELOPMENT`;
+  - `Docker/SCRIPTS-SQL-PRODUCTION`;
+  - `Docker/SCRIPTS-SQL-STAGING`.
+- A imagem utilizado para o container do banco de dados (Oracle XE) é `gvenzl/oracle-xe -> https://hub.docker.com/r/gvenzl/oracle-xe`
+- A `collection.json` do Insomnia pode ser encontrada na pasta `INSOMNIA/gereresiduocollection.json`.
