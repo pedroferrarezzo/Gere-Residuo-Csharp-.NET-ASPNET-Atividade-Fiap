@@ -120,6 +120,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   na classe “DatabaseContext” e os “DbSets”;![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/cce336ca-1df3-4b1d-93c6-471c8bf50a59)
 - Em alguns atributos específicos foi praticado o uso de Enums, como por
   exemplo no atributo Role da entidade Usuário;
+  
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/b7762df8-b6c2-4450-b39d-d3c84a0488bd)
 - Endpoints de POST e PUT devolvem no Body da requisição de resposta
   o objeto criado/atualizado, além de um atributo location no header da
