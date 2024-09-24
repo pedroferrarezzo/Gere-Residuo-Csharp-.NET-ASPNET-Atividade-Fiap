@@ -88,6 +88,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 
 - O conceito de DI foi amplamente utilizado no projeto, sendo o contêiner
   de DI “IServiceCollection” configurado no arquivo “program.cs”;
+  
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/fb18a32c-0f6c-4f72-8acd-46766dd82a27)
 - Utilizando o “xUnit”, e a biblioteca “MOQ” para criar um DbContext
   mockado, quatro testes unitários foram implementados, por controller,
