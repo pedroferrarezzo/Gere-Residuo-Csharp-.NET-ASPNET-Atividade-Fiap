@@ -53,19 +53,24 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   um token JWT com a Role ADMIN;
 - O tempo de expiração do Token JWT padrão é de 5 minutos;
 - Anatomia de um Token JWT de exemplo;
+  
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/a6ae8f4c-8bce-4086-a4e3-fb42b6f613b0)
 - Dados sensíveis foram inseridos no arquivo “appsettings.json”, como:
   strings de conexão com o banco de dados, usuário e senha SMTP...
+
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/329b51ac-d143-4c93-9308-7924deed159a)
 
 # SWAGGER
 
 - Toda a API está devidamente documentada no Swagger. A UI dele Inclui:
   - Versionamento;
+    
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/8ad2b1d5-e6ef-4b8d-aed2-104b4cda7a4b)
   - Botão de autenticação “Token JWT”;
+    
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/b7680863-6178-4b22-8952-3436cbc6cc48)
   - Comentários personalizados por endpoint.
+    
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/adbe7981-e68f-4b5f-ae42-9bf3c706a5c7)
 
 # INTEGRAÇÃO - SERVIDOR SMTP
@@ -91,9 +96,11 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   - Status Code 404 quando uma referência inválida for passada;
   - Status Code 200 quanndo uma referência válida for passada;
   - Três registros retornados.
+    
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/9706962d-c1fa-4119-865b-5363e223bdbd)
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/3404c5a9-5583-40ca-b02c-bd519d544f4c)
 - Execução de todos os testes a partir do “Text Explorer”.
+  
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/c75d7825-c419-4afd-87d9-b275cc9cdb3e)
 
 # OUTROS DETALHES DO PROJETO
