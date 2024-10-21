@@ -1,0 +1,22 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729541368.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "token"
+  ],
+  "properties": {
+    "token": {
+      "$id": "#root/token",
+      "title": "Token",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Im9wZXJhZG9ydGVzdGVAZXhlbXBsby5jb20uYnIiLCJyb2xlIjoiT1BFUkFET1IiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiMmQzMDM5ZmMtMTJkOC00NDMxLWFkMjUtOWUxM2NhYTNhNzM1IiwibmJmIjoxNzI5NTQwNDg5LCJleHAiOjE3Mjk1NDA3ODksImlhdCI6MTcyOTU0MDQ4OSwiaXNzIjoiR2VyZSBSZXNpZHVvIENvbXBhbnkifQ.mAMKMWRROm5jZS4kIcfSOeR-5Dbn8Jf9m2_sZwHuROI"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

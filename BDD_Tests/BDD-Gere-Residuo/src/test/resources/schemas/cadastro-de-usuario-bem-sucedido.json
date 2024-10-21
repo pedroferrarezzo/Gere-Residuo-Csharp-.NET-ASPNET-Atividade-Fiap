@@ -1,0 +1,51 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729524557.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "usuarioNome",
+    "usuarioEmail",
+    "usuarioRole"
+  ],
+  "properties": {
+    "usuarioNome": {
+      "$id": "#root/usuarioNome",
+      "title": "Usuarionome",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Pedro Ferrarezzo"
+      ],
+      "pattern": "^.*$"
+    },
+    "usuarioEmail": {
+      "$id": "#root/usuarioEmail",
+      "title": "Usuarioemail",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "pedrof@example.com"
+      ],
+      "pattern": "^.*$"
+    },
+    "usuarioRole": {
+      "$id": "#root/usuarioRole",
+      "title": "Usuariorole",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "ADMIN",
+        "OPERADOR",
+        "USER"
+      ],
+      "enum": [
+        "ADMIN",
+        "OPERADOR",
+        "USER"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}
