@@ -1,6 +1,6 @@
 # language: pt
 
-@USUARIO @FUNCIONAL
+@USUARIO @FUNCIONAL @CREATE
 Funcionalidade: Cadastro de novo usuário OPERADOR
   Como administrador de usuários
   Quero cadastrar um novo usuário OPERADOR
@@ -26,4 +26,4 @@ Funcionalidade: Cadastro de novo usuário OPERADOR
       | usuarioRole    | OPERADOR                     |
     Quando uma requisição POST for enviada para a rota "/api/v1/Usuario" de cadastro de usuário
     Então o status code esperado é o 400
-    E a API deve retornar um objeto JSON contendo uma mensagem de erro para o atributo faltante: "A senha do usuário é obrigatória!"
+    E a API deve retornar um objeto JSON contendo uma mensagem de erro: "A senha do usuário é obrigatória!"

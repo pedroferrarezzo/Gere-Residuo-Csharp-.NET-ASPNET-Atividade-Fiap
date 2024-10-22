@@ -16,7 +16,7 @@ import java.util.Set;
 
 public class CadastroUsuarioSteps {
 
-    CadastroUsuarioService cadastroUsuarioService = new CadastroUsuarioService();
+    public CadastroUsuarioService cadastroUsuarioService = new CadastroUsuarioService();
 
     @Dado("que eu tenha os seguintes dados de usuário:")
     public void queEuTenhaOsSeguintesDadosDeUsuário(List<Map<String, String>> rows) {
@@ -51,19 +51,13 @@ public class CadastroUsuarioSteps {
         Assert.assertTrue("A estrutura JSON de resposta da API não está de acordo com o JSONSChema. Erros encontrados: " + validateResponse, validateResponse.isEmpty());
     }
 
-
-    @E("a API deve retornar um objeto JSON contendo uma mensagem de erro para o atributo faltante: {string}")
-    public void aAPIDeveRetornarUmObjetoJSONContendoUmaMensagemDeErroParaOAtributoFaltante(String message) {
+    @E("a API deve retornar um objeto JSON contendo uma mensagem de erro: {string}")
+    public void aAPIDeveRetornarUmObjetoJSONContendoUmaMensagemDeErro(String message) {
         ErrorModel errorModel = cadastroUsuarioService.gson.fromJson(
                 cadastroUsuarioService.response.jsonPath().prettify(), ErrorModel.class
         );
 
         Assert.assertEquals(message, errorModel.getErrorMessages().getFirst());
-    }
-
-    @Dado("que eu recupere o ID do usuário criado durante a execução do contexto")
-    public void queEuRecupereOIDDoUsuárioCriadoDuranteAExecuçãoDoContexto() {
-        cadastroUsuarioService.setUsuarioId();
     }
 
     @Quando("uma requisição DELETE for enviada para a rota {string} passando o ID do usuário como Path Parameter")
@@ -80,5 +74,15 @@ public class CadastroUsuarioSteps {
     @Então("o Token JWT retornado deve ser valido com a Secret Key")
     public void oTokenJWTRetornadoDeveSerValidoComASecretKey() {
         cadastroUsuarioService.validateTokenJwt();
+    }
+
+    @E("que eu recupere o ID do usuário criado")
+    public void queEuRecupereOIDDoUsuárioCriado() {
+        cadastroUsuarioService.setUsuarioId();
+    }
+
+    @Dado("que eu especifique um ID de usuário invalido")
+    public void queEuEspecifiqueUmIDDeUsuárioInvalido() {
+        cadastroUsuarioService.setUsuarioIdInvalido();
     }
 }

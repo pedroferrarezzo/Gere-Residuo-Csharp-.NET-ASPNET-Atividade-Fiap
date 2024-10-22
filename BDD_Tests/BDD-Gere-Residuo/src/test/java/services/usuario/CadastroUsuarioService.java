@@ -45,8 +45,8 @@ public class CadastroUsuarioService {
             .create();
 
     public Response response;
-    public String usuarioId;
-    public String tokenJwt;
+    private String usuarioId;
+    private String tokenJwt;
     String schemasPath = "src/test/resources/schemas/";
     JSONObject jsonSchema;
 
@@ -98,11 +98,17 @@ public class CadastroUsuarioService {
     }
 
     public void setUsuarioId() {
-        usuarioId = String.valueOf(gson.fromJson(response.jsonPath().prettify(), usuarioModel.getClass()).getUsuarioId());
+        if (usuarioId == null) {
+            usuarioId = String.valueOf(gson.fromJson(response.jsonPath().prettify(), UsuarioModel.class).getUsuarioId());
+        }
+    }
+
+    public void setUsuarioIdInvalido() {
+        usuarioId = "0";
     }
 
     public void setTokenJwt() {
-        tokenJwt = String.valueOf(gson.fromJson(response.jsonPath().prettify(), tokenModel.getClass()).getToken());
+        tokenJwt = String.valueOf(gson.fromJson(response.jsonPath().prettify(), TokenModel.class).getToken());
     }
 
 
@@ -115,14 +121,14 @@ public class CadastroUsuarioService {
                     .parseClaimsJws(tokenJwt);
 
         } catch (JwtException e) {
-            System.out.println("Token JWT inválido: " + e.getMessage());
+            throw new JwtException("Token JWT inválido: " + e.getMessage());
         }
     }
 
-    @AfterAll
     public void deleteUsuario(String endpoint) {
         String url = String.format("%s%s/%s", baseUrl, endpoint, usuarioId);
         response = given()
+                .header("Authorization", "Bearer " + tokenJwt)
                 .accept(ContentType.JSON)
                 .when()
                 .delete(url)

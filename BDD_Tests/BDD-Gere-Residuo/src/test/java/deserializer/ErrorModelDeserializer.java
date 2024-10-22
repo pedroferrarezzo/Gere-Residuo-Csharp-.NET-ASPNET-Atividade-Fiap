@@ -15,8 +15,14 @@ public class ErrorModelDeserializer implements JsonDeserializer<ErrorModel> {
         JsonObject jsonObject = json.getAsJsonObject();
 
         for (Map.Entry<String, JsonElement> entry : jsonObject.entrySet()) {
-            for (JsonElement message : entry.getValue().getAsJsonArray()) {
-                errorModel.getErrorMessages().add(message.getAsString());
+
+            try {
+                for (JsonElement message : entry.getValue().getAsJsonArray()) {
+                    errorModel.getErrorMessages().add(message.getAsString());
+                }
+            }
+            catch (IllegalStateException e) {
+                errorModel.getErrorMessages().add(entry.getValue().getAsString());
             }
         }
         return errorModel;
