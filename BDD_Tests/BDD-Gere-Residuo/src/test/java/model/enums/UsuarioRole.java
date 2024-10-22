@@ -1,4 +1,4 @@
-package model.usuario;
+package model.enums;
 
 public enum UsuarioRole {
     ADMIN("ADMIN"),

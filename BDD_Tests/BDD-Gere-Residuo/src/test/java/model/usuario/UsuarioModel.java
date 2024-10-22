@@ -1,6 +1,7 @@
 package model.usuario;
 import com.google.gson.annotations.Expose;
 import lombok.Data;
+import model.enums.UsuarioRole;
 
 @Data
 public class UsuarioModel {

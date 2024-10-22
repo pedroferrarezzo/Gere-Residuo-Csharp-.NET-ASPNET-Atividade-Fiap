@@ -9,7 +9,7 @@ import com.networknt.schema.SpecVersion;
 import com.networknt.schema.ValidationMessage;
 import deserializer.ErrorModelDeserializer;
 import dto.usuario.UsuarioLoginDto;
-import io.cucumber.java.AfterAll;
+import hook.usuario.UsuarioHook;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
@@ -18,17 +18,15 @@ import io.restassured.response.Response;
 import model.error.ErrorModel;
 import model.token.TokenModel;
 import model.usuario.UsuarioModel;
-import model.usuario.UsuarioRole;
+import model.enums.UsuarioRole;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.Key;
-import java.util.Map;
 import java.util.Set;
 
 import static io.restassured.RestAssured.given;
@@ -47,8 +45,8 @@ public class CadastroUsuarioService {
     public Response response;
     private String usuarioId;
     private String tokenJwt;
-    String schemasPath = "src/test/resources/schemas/";
-    JSONObject jsonSchema;
+    private final String schemasPath = "src/test/resources/schemas/usuario/";
+    private JSONObject jsonSchema;
 
     private final ObjectMapper mapper = new ObjectMapper();
     private final String baseUrl = "http://52.170.197.27:80";
@@ -79,6 +77,9 @@ public class CadastroUsuarioService {
                 .then()
                 .extract()
                 .response();
+
+        String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), UsuarioModel.class).getUsuarioId());
+        UsuarioHook.setUsuarioCriadoId(id);
     }
 
     public void authenticateUsuario(String endpoint) {
@@ -95,6 +96,24 @@ public class CadastroUsuarioService {
                 .then()
                 .extract()
                 .response();
+    }
+
+    public String authenticateUsuario(String endpoint, String email, String password) {
+        String url = baseUrl + endpoint;
+        UsuarioLoginDto usuarioLoginDto = new UsuarioLoginDto(email, password);
+        String bodyToSend = gson.toJson(usuarioLoginDto);
+
+        response = given()
+                .contentType(ContentType.JSON)
+                .accept(ContentType.JSON)
+                .body(bodyToSend)
+                .when()
+                .post(url)
+                .then()
+                .extract()
+                .response();
+
+        return String.valueOf(gson.fromJson(response.jsonPath().prettify(), TokenModel.class).getToken());
     }
 
     public void setUsuarioId() {
@@ -129,6 +148,18 @@ public class CadastroUsuarioService {
         String url = String.format("%s%s/%s", baseUrl, endpoint, usuarioId);
         response = given()
                 .header("Authorization", "Bearer " + tokenJwt)
+                .accept(ContentType.JSON)
+                .when()
+                .delete(url)
+                .then()
+                .extract()
+                .response();
+    }
+
+    public void deleteUsuario(String endpoint, String token, String id) {
+        String url = String.format("%s%s/%s", baseUrl, endpoint, id);
+        response = given()
+                .header("Authorization", "Bearer " + token)
                 .accept(ContentType.JSON)
                 .when()
                 .delete(url)
