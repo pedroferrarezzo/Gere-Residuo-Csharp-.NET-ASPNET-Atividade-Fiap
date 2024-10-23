@@ -1,11 +1,8 @@
 package services.usuario;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.*;
-import com.networknt.schema.JsonSchema;
-import com.networknt.schema.JsonSchemaFactory;
-import com.networknt.schema.SpecVersion;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.networknt.schema.ValidationMessage;
 import deserializer.ErrorModelDeserializer;
 import dto.usuario.UsuarioLoginDto;
@@ -15,17 +12,16 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import lombok.Getter;
+import model.enums.UsuarioRole;
 import model.error.ErrorModel;
 import model.token.TokenModel;
 import model.usuario.UsuarioModel;
-import model.enums.UsuarioRole;
 import org.json.JSONObject;
-import org.json.JSONTokener;
+import services.bairro.CadastroBairroService;
+import utils.JSONSchemaUtils;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.security.Key;
 import java.util.Set;
 
@@ -33,29 +29,26 @@ import static io.restassured.RestAssured.given;
 
 public class CadastroUsuarioService {
 
-
     private final UsuarioModel usuarioModel = new UsuarioModel();
-    private final TokenModel tokenModel = new TokenModel();
-
-    public final Gson gson = new GsonBuilder()
+    @Getter
+    private final Gson gson = new GsonBuilder()
             .excludeFieldsWithoutExposeAnnotation()
             .registerTypeAdapter(ErrorModel.class, new ErrorModelDeserializer())
             .create();
 
-    public Response response;
+    @Getter
+    private Response response;
     private String usuarioId;
     private String tokenJwt;
     private final String schemasPath = "src/test/resources/schemas/usuario/";
     private JSONObject jsonSchema;
-
     private final ObjectMapper mapper = new ObjectMapper();
     private final String baseUrl = "http://52.170.197.27:80";
-
 
     public <T> void setAtributoUsuario(String atributo, T valor) {
 
         switch(atributo) {
-            case "usuarioId" -> usuarioModel.setUsuarioId((int) valor);
+            case "usuarioId" -> usuarioModel.setUsuarioId(Integer.parseInt(valor.toString()));
             case "usuarioNome" -> usuarioModel.setUsuarioNome((String) valor);
             case "usuarioEmail" -> usuarioModel.setUsuarioEmail((String) valor);
             case "usuarioSenha" -> usuarioModel.setUsuarioSenha((String) valor);
@@ -78,8 +71,10 @@ public class CadastroUsuarioService {
                 .extract()
                 .response();
 
-        String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), UsuarioModel.class).getUsuarioId());
-        UsuarioHook.setUsuarioCriadoId(id);
+        if (response.getStatusCode() == 201) {
+            String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), UsuarioModel.class).getUsuarioId());
+            UsuarioHook.setUsuarioCriadoId(id);
+        }
     }
 
     public void authenticateUsuario(String endpoint) {
@@ -127,9 +122,10 @@ public class CadastroUsuarioService {
     }
 
     public void setTokenJwt() {
-        tokenJwt = String.valueOf(gson.fromJson(response.jsonPath().prettify(), TokenModel.class).getToken());
+        String deserializedToken = String.valueOf(gson.fromJson(response.jsonPath().prettify(), TokenModel.class).getToken());
+        tokenJwt = deserializedToken;
+        CadastroBairroService.setTokenJwt(deserializedToken);
     }
-
 
     public void validateTokenJwt() {
         try {
@@ -169,32 +165,16 @@ public class CadastroUsuarioService {
     }
 
     // JSON Schema Validator
-    private JSONObject getArquivoJsonSchema(String filePath) throws IOException {
-        try (InputStream inputStream = Files.newInputStream(Paths.get(filePath))) {
-            JSONTokener tokener = new JSONTokener(inputStream);
-
-            return new JSONObject(tokener);
-        }
-    }
-
     public void setArquivoJsonSchema(String contract) throws IOException {
         switch (contract) {
-            case "Cadastro de usuário bem-sucedido" -> jsonSchema = getArquivoJsonSchema(schemasPath + "cadastro-de-usuario-bem-sucedido.json");
-            case "Login de usuário bem sucedido" -> jsonSchema = getArquivoJsonSchema(schemasPath + "login-de-usuario-bem-sucedido.json");
+            case "Cadastro de usuário bem-sucedido" -> jsonSchema = JSONSchemaUtils.getArquivoJsonSchema(schemasPath + "cadastro-de-usuario-bem-sucedido.json");
+            case "Login de usuário bem sucedido" -> jsonSchema = JSONSchemaUtils.getArquivoJsonSchema(schemasPath + "login-de-usuario-bem-sucedido.json");
             default -> throw new IllegalStateException("Arquivo JSON Schema não encontrado: " + contract);
         }
     }
 
     public Set<ValidationMessage> validateResponseContraJsonSchema() throws IOException
     {
-        JSONObject jsonResponse = new JSONObject(response.getBody().asString());
-
-        JsonSchemaFactory schemaFactory = JsonSchemaFactory.getInstance(SpecVersion.VersionFlag.V4);
-
-        JsonSchema schema = schemaFactory.getSchema(jsonSchema.toString());
-
-        JsonNode jsonResponseNode = mapper.readTree(jsonResponse.toString());
-
-        return schema.validate(jsonResponseNode);
+        return JSONSchemaUtils.validateResponseContraJsonSchema(response, jsonSchema, mapper);
     }
 }

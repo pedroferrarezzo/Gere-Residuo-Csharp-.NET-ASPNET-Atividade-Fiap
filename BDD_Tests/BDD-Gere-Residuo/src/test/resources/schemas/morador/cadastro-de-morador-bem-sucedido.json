@@ -1,0 +1,53 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729644559.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "moradorId",
+    "bairroId",
+    "moradorNome",
+    "moradorEmail"
+  ],
+  "properties": {
+    "moradorId": {
+      "$id": "#root/moradorId",
+      "title": "Moradorid",
+      "type": "integer",
+      "examples": [
+        42
+      ],
+      "default": 0
+    },
+    "bairroId": {
+      "$id": "#root/bairroId",
+      "title": "Bairroid",
+      "type": "integer",
+      "examples": [
+        52
+      ],
+      "default": 0
+    },
+    "moradorNome": {
+      "$id": "#root/moradorNome",
+      "title": "Moradornome",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Pedro Ferrarezzo"
+      ],
+      "pattern": "^.*$"
+    },
+    "moradorEmail": {
+      "$id": "#root/moradorEmail",
+      "title": "Moradoremail",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "pedrof@exampsle22.com"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

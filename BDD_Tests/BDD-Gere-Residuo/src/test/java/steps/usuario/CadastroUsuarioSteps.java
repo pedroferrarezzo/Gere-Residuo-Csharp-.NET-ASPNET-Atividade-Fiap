@@ -16,7 +16,7 @@ import java.util.Set;
 
 public class CadastroUsuarioSteps {
 
-    public CadastroUsuarioService cadastroUsuarioService = new CadastroUsuarioService();
+    private final CadastroUsuarioService cadastroUsuarioService = new CadastroUsuarioService();
 
     @Dado("que eu tenha os seguintes dados de usuário:")
     public void queEuTenhaOsSeguintesDadosDeUsuário(List<Map<String, String>> rows) {
@@ -37,7 +37,7 @@ public class CadastroUsuarioSteps {
 
     @Então("o status code esperado é o {int}")
     public void oStatusCodeEsperadoÉO(int statusCode) {
-        Assert.assertEquals(statusCode, cadastroUsuarioService.response.statusCode());
+        Assert.assertEquals(statusCode, cadastroUsuarioService.getResponse().statusCode());
     }
 
     @E("o JSON Schema de validação a ser usado é o {string}")
@@ -53,8 +53,8 @@ public class CadastroUsuarioSteps {
 
     @E("a API deve retornar um objeto JSON contendo uma mensagem de erro: {string}")
     public void aAPIDeveRetornarUmObjetoJSONContendoUmaMensagemDeErro(String message) {
-        ErrorModel errorModel = cadastroUsuarioService.gson.fromJson(
-                cadastroUsuarioService.response.jsonPath().prettify(), ErrorModel.class
+        ErrorModel errorModel = cadastroUsuarioService.getGson().fromJson(
+                cadastroUsuarioService.getResponse().jsonPath().prettify(), ErrorModel.class
         );
 
         Assert.assertEquals(message, errorModel.getErrorMessages().getFirst());
@@ -68,7 +68,6 @@ public class CadastroUsuarioSteps {
     @E("o Token JWT seja recuperado da resposta da API")
     public void oTokenJWTSejaRecuperadoDaRespostaDaAPI() {
         cadastroUsuarioService.setTokenJwt();
-
     }
 
     @Então("o Token JWT retornado deve ser valido com a Secret Key")

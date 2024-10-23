@@ -1,0 +1,72 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729639472.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "bairroId",
+    "bairroNome",
+    "quantidadeLixeiras",
+    "pesoMedioLixeirasKg",
+    "percentualColetaLixoBairro",
+    "bairroEstaDisponivel"
+  ],
+  "properties": {
+    "bairroId": {
+      "$id": "#root/bairroId",
+      "title": "Bairroid",
+      "type": "integer",
+      "examples": [
+        41
+      ],
+      "default": 0
+    },
+    "bairroNome": {
+      "$id": "#root/bairroNome",
+      "title": "Bairronome",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Bairro das Flosres"
+      ],
+      "pattern": "^.*$"
+    },
+    "quantidadeLixeiras": {
+      "$id": "#root/quantidadeLixeiras",
+      "title": "Quantidadelixeiras",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "pesoMedioLixeirasKg": {
+      "$id": "#root/pesoMedioLixeirasKg",
+      "title": "Pesomediolixeiraskg",
+      "type": "integer",
+      "examples": [
+        120
+      ],
+      "default": 0
+    },
+    "percentualColetaLixoBairro": {
+      "$id": "#root/percentualColetaLixoBairro",
+      "title": "Percentualcoletalixobairro",
+      "type": "integer",
+      "examples": [
+        100
+      ],
+      "default": 0
+    },
+    "bairroEstaDisponivel": {
+      "$id": "#root/bairroEstaDisponivel",
+      "title": "Bairroestadisponivel",
+      "type": "boolean",
+      "examples": [
+        true
+      ],
+      "default": true
+    }
+  }
+}

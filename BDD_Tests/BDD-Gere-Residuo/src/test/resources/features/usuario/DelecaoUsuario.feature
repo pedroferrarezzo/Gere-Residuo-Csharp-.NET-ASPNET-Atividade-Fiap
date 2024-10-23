@@ -25,13 +25,13 @@ Funcionalidade: Deleção de usuário
     Então o Token JWT seja recuperado da resposta da API
     E o Token JWT retornado deve ser valido com a Secret Key
 
-  Cenário: Exclusão bem-sucedida de colaborador pelo ID
+  Cenário: Exclusão bem-sucedida de usuario pelo ID
     Dado que eu recupere o ID do usuário criado
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Usuario" passando o ID do usuário como Path Parameter
     Então o status code esperado é o 204
 
   @HOOK_CLEAN_USER_AFTER_SCENARIO
-  Cenário: Exclusão mal-sucedida de colaborador pelo ID
+  Cenário: Exclusão mal-sucedida de usuario pelo ID
     Dado que eu especifique um ID de usuário invalido
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Usuario" passando o ID do usuário como Path Parameter
     Então o status code esperado é o 404
