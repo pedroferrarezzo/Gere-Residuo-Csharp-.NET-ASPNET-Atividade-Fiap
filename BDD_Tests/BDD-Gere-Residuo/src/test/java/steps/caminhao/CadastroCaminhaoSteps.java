@@ -5,6 +5,7 @@ import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
+import model.caminhao.CaminhaoModel;
 import model.error.ErrorModel;
 import org.junit.Assert;
 import services.caminhao.CadastroCaminhaoService;
@@ -67,5 +68,15 @@ public class CadastroCaminhaoSteps {
     @Dado("que eu especifique um ID de caminhao invalido")
     public void queEuEspecifiqueUmIDDeCaminhaoInvalido() {
         cadastroCaminhaoService.setCaminhaoIdInvalido();
+    }
+
+    @Então("uma requisição GET deve ser enviada para {string} passando o ID do caminhao da agenda como Path Parameter para obter o seu estado atual")
+    public void umaRequisiçãoGETDeveSerEnviadaParaPassandoOIDDoCaminhaoDaAgendaComoPathParameterParaObterOSeuEstadoAtual(String endpoint) {
+        cadastroCaminhaoService.getCaminhao(endpoint);
+    }
+
+    @E("o atributo caminhaoEstaDisponivel deve ser igual a {string}")
+    public void oAtributoCaminhaoEstaDisponivelDeveSerIgualA(String condition) {
+        cadastroCaminhaoService.validateCaminhaoEstaDisponivel(condition);
     }
 }

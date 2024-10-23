@@ -18,7 +18,7 @@ Funcionalidade: Autenticação de usuário
     E o JSON Schema de validação a ser usado é o "Cadastro de usuário bem-sucedido"
     Então a resposta da requisição deve estar em conformidade com o JSON Schema selecionado
 
-  @HOOK_CLEAN_USER_AFTER_SCENARIO
+  @HOOK_CLEAN_USUARIO_AFTER_SCENARIO
   Cenário: Autenticação bem-sucedida de usuário
     Dado que eu tenha os seguintes dados de usuário:
       | atributo       | valor                      |
@@ -31,7 +31,7 @@ Funcionalidade: Autenticação de usuário
     E o Token JWT seja recuperado da resposta da API
     Então o Token JWT retornado deve ser valido com a Secret Key
 
-  @HOOK_CLEAN_USER_AFTER_SCENARIO
+  @HOOK_CLEAN_USUARIO_AFTER_SCENARIO
   Cenário: Autenticação mal-sucedida de usuário
     Dado que eu tenha os seguintes dados de usuário:
       | atributo       | valor                      |

@@ -91,6 +91,9 @@
                         <include>**/runner.usuario/Test**.java</include>
                         <include>**/runner.bairro/Test**.java</include>
                         <include>**/runner.morador/Test**.java</include>
+                        <include>**/runner.motorista/Test**.java</include>
+                        <include>**/runner.caminhao/Test**.java</include>
+                        <include>**/runner.agenda/Test**.java</include>
                     </includes>
                 </configuration>
             </plugin>

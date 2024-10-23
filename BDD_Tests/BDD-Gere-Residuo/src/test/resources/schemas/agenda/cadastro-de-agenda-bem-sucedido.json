@@ -1,0 +1,110 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729692439.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "agendaId",
+    "caminhaoId",
+    "motoristaId",
+    "bairroId",
+    "diaColetaDeLixo",
+    "tipoResiduo",
+    "statusColetaDeLixoAgendada",
+    "pesoColetadoDeLixoKg"
+  ],
+  "properties": {
+    "agendaId": {
+      "$id": "#root/agendaId",
+      "title": "Agendaid",
+      "type": "integer",
+      "examples": [
+        21
+      ],
+      "default": 0
+    },
+    "caminhaoId": {
+      "$id": "#root/caminhaoId",
+      "title": "Caminhaoid",
+      "type": "integer",
+      "examples": [
+        22
+      ],
+      "default": 0
+    },
+    "motoristaId": {
+      "$id": "#root/motoristaId",
+      "title": "Motoristaid",
+      "type": "integer",
+      "examples": [
+        21
+      ],
+      "default": 0
+    },
+    "bairroId": {
+      "$id": "#root/bairroId",
+      "title": "Bairroid",
+      "type": "integer",
+      "examples": [
+        22
+      ],
+      "default": 0
+    },
+    "diaColetaDeLixo": {
+      "$id": "#root/diaColetaDeLixo",
+      "title": "Diacoletadelixo",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-10-25"
+      ],
+      "pattern": "^.*$"
+    },
+    "tipoResiduo": {
+      "$id": "#root/tipoResiduo",
+      "title": "Tiporesiduo",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "GERAL",
+        "VIDRO",
+        "ORGANICO",
+        "PLASTICO",
+        "ELETRONICO"
+      ],
+      "enum": [
+        "GERAL",
+        "VIDRO",
+        "ORGANICO",
+        "PLASTICO",
+        "ELETRONICO"
+      ],
+      "pattern": "^.*$"
+    },
+    "statusColetaDeLixoAgendada": {
+      "$id": "#root/statusColetaDeLixoAgendada",
+      "title": "Statuscoletadelixoagendada",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "EM_ANDAMENTO",
+        "FINALIZADA"
+      ],
+      "enum": [
+        "EM_ANDAMENTO",
+        "FINALIZADA"
+      ],
+      "pattern": "^.*$"
+    },
+    "pesoColetadoDeLixoKg": {
+      "$id": "#root/pesoColetadoDeLixoKg",
+      "title": "Pesocoletadodelixokg",
+      "type": "integer",
+      "examples": [
+        0
+      ],
+      "default": 0
+    }
+  }
+}

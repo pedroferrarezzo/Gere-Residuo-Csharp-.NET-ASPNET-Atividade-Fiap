@@ -13,6 +13,8 @@ import lombok.Setter;
 import model.caminhao.CaminhaoModel;
 import model.error.ErrorModel;
 import org.json.JSONObject;
+import org.junit.Assert;
+import services.agenda.CadastroAgendaService;
 import utils.JSONSchemaUtils;
 
 import java.io.IOException;
@@ -52,6 +54,22 @@ public class CadastroCaminhaoService {
         }
     }
 
+    public void validateCaminhaoEstaDisponivel(String condition) {
+        switch(condition) {
+            case "False" -> Assert.assertFalse(
+                    gson.fromJson(
+                                    response.jsonPath().prettify(), CaminhaoModel.class)
+                            .isCaminhaoEstaDisponivel()
+            );
+            case "True" -> Assert.assertTrue(
+                    gson.fromJson(
+                                    response.jsonPath().prettify(), CaminhaoModel.class)
+                            .isCaminhaoEstaDisponivel()
+            );
+            default -> throw new IllegalStateException("Condição incorreta: " + condition);
+        }
+    }
+
     public void createCaminhao(String endpoint) {
         String url = baseUrl + endpoint;
         String bodyToSend = gson.toJson(caminhaoModel);
@@ -70,7 +88,20 @@ public class CadastroCaminhaoService {
         if (response.getStatusCode() == 201) {
             String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), CaminhaoModel.class).getCaminhaoId());
             CaminhaoHook.setCaminhaoCriadoId(id);
+            CadastroAgendaService.setCaminhaoId(Integer.parseInt(id));
         }
+    }
+
+    public void getCaminhao(String endpoint) {
+        String url = String.format("%s%s/%s", baseUrl, endpoint, caminhaoId);
+        response = given()
+                .header("Authorization", "Bearer " + tokenJwt)
+                .accept(ContentType.JSON)
+                .when()
+                .get(url)
+                .then()
+                .extract()
+                .response();
     }
 
     public void setCaminhaoId() {

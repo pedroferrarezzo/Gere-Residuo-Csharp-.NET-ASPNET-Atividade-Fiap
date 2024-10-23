@@ -17,6 +17,7 @@ import model.error.ErrorModel;
 import model.token.TokenModel;
 import model.usuario.UsuarioModel;
 import org.json.JSONObject;
+import services.agenda.CadastroAgendaService;
 import services.bairro.CadastroBairroService;
 import services.caminhao.CadastroCaminhaoService;
 import services.morador.CadastroMoradorService;
@@ -131,6 +132,7 @@ public class CadastroUsuarioService {
         CadastroMoradorService.setTokenJwt(deserializedToken);
         CadastroCaminhaoService.setTokenJwt(deserializedToken);
         CadastroMotoristaService.setTokenJwt(deserializedToken);
+        CadastroAgendaService.setTokenJwt(deserializedToken);
     }
 
     public void validateTokenJwt() {

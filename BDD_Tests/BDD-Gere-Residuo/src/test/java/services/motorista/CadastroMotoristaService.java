@@ -13,6 +13,8 @@ import lombok.Setter;
 import model.error.ErrorModel;
 import model.motorista.MotoristaModel;
 import org.json.JSONObject;
+import org.junit.Assert;
+import services.agenda.CadastroAgendaService;
 import utils.JSONSchemaUtils;
 
 import java.io.IOException;
@@ -53,6 +55,22 @@ public class CadastroMotoristaService {
         }
     }
 
+    public void validateMotoristaEstaDisponivel(String condition) {
+        switch(condition) {
+            case "False" -> Assert.assertFalse(
+                    gson.fromJson(
+                                    response.jsonPath().prettify(), MotoristaModel.class)
+                            .isMotoristaEstaDisponivel()
+            );
+            case "True" -> Assert.assertTrue(
+                    gson.fromJson(
+                                    response.jsonPath().prettify(), MotoristaModel.class)
+                            .isMotoristaEstaDisponivel()
+            );
+            default -> throw new IllegalStateException("Condição incorreta: " + condition);
+        }
+    }
+
     public void createMotorista(String endpoint) {
         String url = baseUrl + endpoint;
         String bodyToSend = gson.toJson(motoristaModel);
@@ -71,7 +89,20 @@ public class CadastroMotoristaService {
         if (response.getStatusCode() == 201) {
             String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), MotoristaModel.class).getMotoristaId());
             MotoristaHook.setMotoristaCriadoId(id);
+            CadastroAgendaService.setMotoristaId(Integer.parseInt(id));
         }
+    }
+
+    public void getMotorista(String endpoint) {
+        String url = String.format("%s%s/%s", baseUrl, endpoint, motoristaId);
+        response = given()
+                .header("Authorization", "Bearer " + tokenJwt)
+                .accept(ContentType.JSON)
+                .when()
+                .get(url)
+                .then()
+                .extract()
+                .response();
     }
 
     public void setMotoristaId() {

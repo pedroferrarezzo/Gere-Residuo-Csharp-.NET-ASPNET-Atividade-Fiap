@@ -7,7 +7,6 @@ public enum TipoResiduo {
     PLASTICO("PLASTICO"),
     ELETRONICO("ELETRONICO");
 
-
     private String tipoResiduo;
 
     TipoResiduo(String status) {

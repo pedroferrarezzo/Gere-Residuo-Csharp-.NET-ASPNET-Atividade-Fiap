@@ -6,7 +6,7 @@ Funcionalidade: Cadastro de novo usuário OPERADOR
   Quero cadastrar um novo usuário OPERADOR
   Para que ele realize operações no sistema
 
-  @HOOK_CLEAN_USER_AFTER_SCENARIO
+  @HOOK_CLEAN_USUARIO_AFTER_SCENARIO
   Cenário: Cadastro de usuário bem-sucedido
     Dado que eu tenha os seguintes dados de usuário:
       | atributo       | valor                          |

@@ -30,7 +30,7 @@ Funcionalidade: Deleção de usuário
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Usuario" passando o ID do usuário como Path Parameter
     Então o status code esperado é o 204
 
-  @HOOK_CLEAN_USER_AFTER_SCENARIO
+  @HOOK_CLEAN_USUARIO_AFTER_SCENARIO
   Cenário: Exclusão mal-sucedida de usuario pelo ID
     Dado que eu especifique um ID de usuário invalido
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Usuario" passando o ID do usuário como Path Parameter

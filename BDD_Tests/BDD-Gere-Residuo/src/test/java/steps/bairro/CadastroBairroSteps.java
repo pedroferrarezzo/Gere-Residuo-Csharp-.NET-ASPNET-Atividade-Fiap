@@ -5,6 +5,7 @@ import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
+import model.bairro.BairroModel;
 import model.error.ErrorModel;
 import org.junit.Assert;
 import services.bairro.CadastroBairroService;
@@ -67,5 +68,15 @@ public class CadastroBairroSteps {
     @Dado("que eu especifique um ID de bairro invalido")
     public void queEuEspecifiqueUmIDDeBairroInvalido() {
         cadastroBairroService.setBairroIdInvalido();
+    }
+
+    @Então("uma requisição GET deve ser enviada para {string} passando o ID do bairro da agenda como Path Parameter para obter o seu estado atual")
+    public void umaRequisiçãoGETDeveSerEnviadaParaPassandoOIDDoBairroDaAgendaComoPathParameterParaObterOSeuEstadoAtual(String endpoint) {
+        cadastroBairroService.getBairro(endpoint);
+    }
+
+    @E("o atributo bairroEstaDisponivel deve ser igual a {string}")
+    public void oAtributoBairroEstaDisponivelDeveSerIgualA(String codition) {
+        cadastroBairroService.validateBairroEstaDisponivel(codition);
     }
 }

@@ -13,6 +13,8 @@ import lombok.Setter;
 import model.bairro.BairroModel;
 import model.error.ErrorModel;
 import org.json.JSONObject;
+import org.junit.Assert;
+import services.agenda.CadastroAgendaService;
 import services.morador.CadastroMoradorService;
 import utils.JSONSchemaUtils;
 
@@ -54,6 +56,22 @@ public class CadastroBairroService {
         }
     }
 
+    public void validateBairroEstaDisponivel(String condition) {
+        switch(condition) {
+            case "False" -> Assert.assertFalse(
+                    gson.fromJson(
+                                    response.jsonPath().prettify(), BairroModel.class)
+                            .isBairroEstaDisponivel()
+            );
+            case "True" -> Assert.assertTrue(
+                    gson.fromJson(
+                                    response.jsonPath().prettify(), BairroModel.class)
+                            .isBairroEstaDisponivel()
+            );
+            default -> throw new IllegalStateException("Condição incorreta: " + condition);
+        }
+    }
+
     public void createBairro(String endpoint) {
         String url = baseUrl + endpoint;
         String bodyToSend = gson.toJson(bairroModel);
@@ -73,6 +91,7 @@ public class CadastroBairroService {
             String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), BairroModel.class).getBairroId());
             BairroHook.setBairroCriadoId(id);
             CadastroMoradorService.setBairroId(Integer.parseInt(id));
+            CadastroAgendaService.setBairroId(Integer.parseInt(id));
         }
     }
 
@@ -93,6 +112,18 @@ public class CadastroBairroService {
                 .accept(ContentType.JSON)
                 .when()
                 .delete(url)
+                .then()
+                .extract()
+                .response();
+    }
+
+    public void getBairro(String endpoint) {
+        String url = String.format("%s%s/%s", baseUrl, endpoint, bairroId);
+        response = given()
+                .header("Authorization", "Bearer " + tokenJwt)
+                .accept(ContentType.JSON)
+                .when()
+                .get(url)
                 .then()
                 .extract()
                 .response();

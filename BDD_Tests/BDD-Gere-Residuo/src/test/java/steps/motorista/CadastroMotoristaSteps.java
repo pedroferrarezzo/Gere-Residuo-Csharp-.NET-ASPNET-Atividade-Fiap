@@ -6,6 +6,7 @@ import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import model.error.ErrorModel;
+import model.motorista.MotoristaModel;
 import org.junit.Assert;
 import services.motorista.CadastroMotoristaService;
 
@@ -66,5 +67,15 @@ public class CadastroMotoristaSteps {
     @Dado("que eu especifique um ID de motorista invalido")
     public void queEuEspecifiqueUmIDDeMotoristaInvalido() {
         cadastroMotoristaService.setMotoristaIdInvalido();
+    }
+
+    @Então("uma requisição GET deve ser enviada para {string} passando o ID do motorista da agenda como Path Parameter para obter o seu estado atual")
+    public void umaRequisiçãoGETDeveSerEnviadaParaPassandoOIDDoMotoristaDaAgendaComoPathParameterParaObterOSeuEstadoAtual(String endpoint) {
+        cadastroMotoristaService.getMotorista(endpoint);
+    }
+
+    @E("o atributo motoristaEstaDisponivel deve ser igual a {string}")
+    public void oAtributoMotoristaEstaDisponivelDeveSerIgualA(String condition) {
+        cadastroMotoristaService.validateMotoristaEstaDisponivel(condition);
     }
 }
