@@ -24,8 +24,8 @@ public class CadastroAgendaSteps {
         }
     }
 
-    @Quando("eu recuperar os IDs de de caminhão, motorista e bairro criados")
-    public void euRecuperarOsIDsDeDeCaminhãoMotoristaEBairroCriados() {
+    @Quando("eu recuperar os IDs de caminhão, motorista e bairro criados")
+    public void euRecuperarOsIDsDeCaminhãoMotoristaEBairroCriados() {
         cadastroAgendaService.setAtributoBairroId();
         cadastroAgendaService.setAtributoCaminhaoId();
         cadastroAgendaService.setAtributoMotoristaId();

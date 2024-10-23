@@ -69,7 +69,7 @@ Funcionalidade: Abertura de agenda
       | atributo            | valor                          |
       | diaColetaDeLixo     | 2026-10-25                     |
       | tipoResiduo         | PLASTICO                       |
-    Quando eu recuperar os IDs de de caminhão, motorista e bairro criados
+    Quando eu recuperar os IDs de caminhão, motorista e bairro criados
     Então uma requisição POST for enviada para a rota "/api/v1/Agenda" de cadastro de agenda
     E o status code que a API de cadastro de Agenda deve retornar é o 201
     Então o JSON Schema de validação a ser usado contra a resposta da API de cadastro de Agenda é o "Cadastro de agenda bem-sucedido"
@@ -87,7 +87,7 @@ Funcionalidade: Abertura de agenda
       | atributo            | valor                          |
       | diaColetaDeLixo     | 2023-10-25                     |
       | tipoResiduo         | PLASTICO                       |
-    Quando eu recuperar os IDs de de caminhão, motorista e bairro criados
+    Quando eu recuperar os IDs de caminhão, motorista e bairro criados
     Então uma requisição POST for enviada para a rota "/api/v1/Agenda" de cadastro de agenda
     E o status code que a API de cadastro de Agenda deve retornar é o 400
     Então a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro que começe com: "A data de agenda da coleta de lixo é menor que o dia de hoje"
