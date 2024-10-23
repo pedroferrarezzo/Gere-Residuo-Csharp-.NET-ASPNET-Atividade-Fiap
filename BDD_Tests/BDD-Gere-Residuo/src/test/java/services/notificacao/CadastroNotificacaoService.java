@@ -4,8 +4,11 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import deserializer.ErrorModelDeserializer;
+import hook.notificacao.NotificacaoHook;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import lombok.Getter;
+import lombok.Setter;
 import model.error.ErrorModel;
 import model.notificacao.NotificacaoModel;
 
@@ -15,19 +18,31 @@ import java.util.Optional;
 
 import static io.restassured.RestAssured.given;
 
-public class NotificacaoService {
-    private final String baseUrl = "http://52.170.197.27:80";
-    private Response response;
+public class CadastroNotificacaoService {
+    private final NotificacaoModel notificacaoModel = new NotificacaoModel();
+
+    @Getter
     private final Gson gson = new GsonBuilder()
             .excludeFieldsWithoutExposeAnnotation()
             .registerTypeAdapter(ErrorModel.class, new ErrorModelDeserializer())
             .create();
+    @Getter
+    @Setter
+    private Response response;
+    @Getter
+    @Setter
+    private static int agendaId;
+    private int notificacaoId;
+    @Getter
+    @Setter
+    private static String tokenJwt;
+    private final String baseUrl = "http://52.170.197.27:80";
 
-
-    public NotificacaoModel getNotificacaoDaAgenda(String endpoint, String token, int agendaCriadaId) {
+    public void setNotificacaoId(String endpoint) {
         String url = String.format("%s%s", baseUrl, endpoint);
+
         response = given()
-                .header("Authorization", "Bearer " + token)
+                .header("Authorization", "Bearer " + tokenJwt)
                 .accept(ContentType.JSON)
                 .when()
                 .get(url)
@@ -39,14 +54,28 @@ public class NotificacaoService {
         List<NotificacaoModel> notificacoes = gson.fromJson(response.jsonPath().prettify(), listNotificacaoType);
 
         Optional<NotificacaoModel> notificacaoDaAgenda = notificacoes.stream()
-                .filter(notificacao -> notificacao.getAgendaDaNotificacao().getAgendaId() == agendaCriadaId)
+                .filter(notificacao -> notificacao.getAgendaDaNotificacao().getAgendaId() == agendaId)
                 .findFirst();
 
         if (notificacaoDaAgenda.isPresent()) {
-            return notificacaoDaAgenda.get();
+            notificacaoId = notificacaoDaAgenda.get().getNotificacaoId();
+            NotificacaoHook.setNotificacaoCriadaId(String.valueOf(notificacaoDaAgenda.get().getNotificacaoId()));
         }
+        else {
+            throw new IllegalStateException("Agenda de ID: " + agendaId + " não gerou notificações!");
+        }
+    }
 
-        throw new IllegalStateException("Agenda de ID: " + agendaCriadaId + " não gerou notificações!");
+    public void deleteNotificacao(String endpoint) {
+        String url = String.format("%s%s/%s", baseUrl, endpoint, notificacaoId);
+        response = given()
+                .header("Authorization", "Bearer " + tokenJwt)
+                .accept(ContentType.JSON)
+                .when()
+                .delete(url)
+                .then()
+                .extract()
+                .response();
     }
 
     public void deleteNotificacao(String endpoint, String token, String id) {
@@ -59,5 +88,9 @@ public class NotificacaoService {
                 .then()
                 .extract()
                 .response();
+    }
+
+    public void setNotificacaoIdInvalido() {
+        notificacaoId = 0;
     }
 }

@@ -15,6 +15,7 @@ import model.enums.StatusColetaDeLixo;
 import model.enums.TipoResiduo;
 import model.error.ErrorModel;
 import org.json.JSONObject;
+import services.notificacao.CadastroNotificacaoService;
 import utils.JSONSchemaUtils;
 
 import java.io.IOException;
@@ -95,6 +96,7 @@ public class CadastroAgendaService {
         if (response.getStatusCode() == 201) {
             String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), AgendaModel.class).getAgendaId());
             AgendaHook.setAgendaCriadaId(id);
+            CadastroNotificacaoService.setAgendaId(Integer.parseInt(id));
         }
     }
 

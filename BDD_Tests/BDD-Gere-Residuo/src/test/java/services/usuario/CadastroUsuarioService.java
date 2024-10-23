@@ -22,6 +22,7 @@ import services.bairro.CadastroBairroService;
 import services.caminhao.CadastroCaminhaoService;
 import services.morador.CadastroMoradorService;
 import services.motorista.CadastroMotoristaService;
+import services.notificacao.CadastroNotificacaoService;
 import utils.JSONSchemaUtils;
 
 import java.io.IOException;
@@ -133,6 +134,7 @@ public class CadastroUsuarioService {
         CadastroCaminhaoService.setTokenJwt(deserializedToken);
         CadastroMotoristaService.setTokenJwt(deserializedToken);
         CadastroAgendaService.setTokenJwt(deserializedToken);
+        CadastroNotificacaoService.setTokenJwt(deserializedToken);
     }
 
     public void validateTokenJwt() {
