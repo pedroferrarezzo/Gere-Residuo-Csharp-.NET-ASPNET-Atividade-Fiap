@@ -9,11 +9,9 @@ public class MotoristaModel {
     @Expose(serialize = false)
     private int motoristaId;
     @Expose(serialize = false)
-    private Boolean motoristaEstaDisponivel;
-
+    private boolean motoristaEstaDisponivel;
     @Expose
     private String motoristaNome;
-
     @Expose
     private String motoristaCpf;
 

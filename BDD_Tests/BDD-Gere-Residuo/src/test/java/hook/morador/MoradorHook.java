@@ -1,5 +1,6 @@
 package hook.morador;
 
+import hook.bairro.BairroHook;
 import io.cucumber.java.After;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,9 +16,9 @@ public class MoradorHook {
     private static final String emailAdminBaseTeste = "adminbaseteste@gereresiduo.com.br";
     private static final String senhaAdminBaseTeste = "Teste123@";
 
-    @After("@HOOK_CLEAN_MORADOR_AFTER_SCENARIO")
-    public static void afterExcluirUsuarioCriado() {
+    @After(value = "@HOOK_CLEAN_MORADOR_AFTER_SCENARIO", order = 2)
+    public static void afterExcluirMoradorCriado() {
         String tokenJwt = cadastroUsuarioService.authenticateUsuario("/api/v1/Usuario/Login", emailAdminBaseTeste, senhaAdminBaseTeste);
-//        cadastroMoradorService.deleteMorador("/api/v1/Morador", tokenJwt, moradorCriadoId);
+        cadastroMoradorService.deleteMorador("/api/v1/Morador", tokenJwt, moradorCriadoId);
     }
 }

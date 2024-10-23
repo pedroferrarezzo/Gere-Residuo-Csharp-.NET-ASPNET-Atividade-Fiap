@@ -11,8 +11,7 @@ public class CaminhaoModel {
     @Expose(serialize = false)
     private int caminhaoId;
     @Expose(serialize = false)
-    private String caminhaoEstaDisponivel;
-
+    private boolean caminhaoEstaDisponivel;
     @Expose
     private String caminhaoPlaca;
     @Expose

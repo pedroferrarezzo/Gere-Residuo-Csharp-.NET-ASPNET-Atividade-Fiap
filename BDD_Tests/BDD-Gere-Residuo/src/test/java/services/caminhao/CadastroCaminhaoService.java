@@ -1,17 +1,17 @@
-package services.morador;
+package services.caminhao;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.networknt.schema.ValidationMessage;
 import deserializer.ErrorModelDeserializer;
-import hook.morador.MoradorHook;
+import hook.caminhao.CaminhaoHook;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import lombok.Getter;
 import lombok.Setter;
+import model.caminhao.CaminhaoModel;
 import model.error.ErrorModel;
-import model.morador.MoradorModel;
 import org.json.JSONObject;
 import utils.JSONSchemaUtils;
 
@@ -20,42 +20,41 @@ import java.util.Set;
 
 import static io.restassured.RestAssured.given;
 
-public class CadastroMoradorService {
+public class CadastroCaminhaoService {
 
-    private final MoradorModel moradorModel = new MoradorModel();
+    private final CaminhaoModel caminhaoModel = new CaminhaoModel();
     @Getter
     private final Gson gson = new GsonBuilder()
             .excludeFieldsWithoutExposeAnnotation()
             .registerTypeAdapter(ErrorModel.class, new ErrorModelDeserializer())
             .create();
     @Getter
-    private Response response;
-    @Getter
     @Setter
-    private static int bairroId;
-    private String moradorId;
+    private Response response;
+    private String caminhaoId;
     @Getter
     @Setter
     private static String tokenJwt;
-    private final String schemasPath = "src/test/resources/schemas/morador/";
+    private final String schemasPath = "src/test/resources/schemas/caminhao/";
     private JSONObject jsonSchema;
     private final ObjectMapper mapper = new ObjectMapper();
     private final String baseUrl = "http://52.170.197.27:80";
 
-    public <T> void setAtributoMorador(String atributo, T valor) {
-
+    public <T> void setAtributoCaminhao(String atributo, T valor) {
         switch(atributo) {
-            case "moradorId" -> moradorModel.setMoradorId(Integer.parseInt(valor.toString()));
-            case "bairroId" -> moradorModel.setBairroId(Integer.parseInt(valor.toString()));
-            case "moradorNome" -> moradorModel.setMoradorNome((String) valor);
-            case "moradorEmail" -> moradorModel.setMoradorEmail((String) valor);
+            case "caminhaoId" -> caminhaoModel.setCaminhaoId(Integer.parseInt(valor.toString()));
+            case "caminhaoPlaca" -> caminhaoModel.setCaminhaoPlaca((String) valor);
+            case "dataFabricacao" -> caminhaoModel.setDataFabricacao((String) valor);
+            case "caminhaoMarca" -> caminhaoModel.setCaminhaoMarca((String) valor);
+            case "caminhaoModelo" -> caminhaoModel.setCaminhaoModelo((String) valor);
+            case "caminhaoEstaDisponivel" -> caminhaoModel.setCaminhaoEstaDisponivel((boolean) valor);
             default -> throw new IllegalStateException("Atributo incorreto: " + valor);
         }
     }
 
-    public void createMorador(String endpoint) {
+    public void createCaminhao(String endpoint) {
         String url = baseUrl + endpoint;
-        String bodyToSend = gson.toJson(moradorModel);
+        String bodyToSend = gson.toJson(caminhaoModel);
 
         response = given()
                 .header("Authorization", "Bearer " + tokenJwt)
@@ -69,27 +68,23 @@ public class CadastroMoradorService {
                 .response();
 
         if (response.getStatusCode() == 201) {
-            String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), MoradorModel.class).getMoradorId());
-            MoradorHook.setMoradorCriadoId(id);
+            String id = String.valueOf(gson.fromJson(response.jsonPath().prettify(), CaminhaoModel.class).getCaminhaoId());
+            CaminhaoHook.setCaminhaoCriadoId(id);
         }
     }
 
-    public void setMoradorId() {
-        if (moradorId == null) {
-            moradorId = String.valueOf(gson.fromJson(response.jsonPath().prettify(), MoradorModel.class).getMoradorId());
+    public void setCaminhaoId() {
+        if (caminhaoId == null) {
+            caminhaoId = String.valueOf(gson.fromJson(response.jsonPath().prettify(), CaminhaoModel.class).getCaminhaoId());
         }
     }
 
-    public void setMoradorIdInvalido() {
-        moradorId = "0";
+    public void setCaminhaoIdInvalido() {
+        caminhaoId = "0";
     }
 
-    public void setAtributoBairroId() {
-        setAtributoMorador("bairroId", getBairroId());
-    }
-
-    public void deleteMorador(String endpoint) {
-        String url = String.format("%s%s/%s", baseUrl, endpoint, moradorId);
+    public void deleteCaminhao(String endpoint) {
+        String url = String.format("%s%s/%s", baseUrl, endpoint, caminhaoId);
         response = given()
                 .header("Authorization", "Bearer " + tokenJwt)
                 .accept(ContentType.JSON)
@@ -100,7 +95,7 @@ public class CadastroMoradorService {
                 .response();
     }
 
-    public void deleteMorador(String endpoint, String token, String id) {
+    public void deleteCaminhao(String endpoint, String token, String id) {
         String url = String.format("%s%s/%s", baseUrl, endpoint, id);
         response = given()
                 .header("Authorization", "Bearer " + token)
@@ -115,7 +110,7 @@ public class CadastroMoradorService {
     // JSON Schema Validator
     public void setArquivoJsonSchema(String contract) throws IOException {
         switch (contract) {
-            case "Cadastro de morador bem-sucedido" -> jsonSchema = JSONSchemaUtils.getArquivoJsonSchema(schemasPath + "cadastro-de-morador-bem-sucedido.json");
+            case "Cadastro de caminhao bem-sucedido" -> jsonSchema = JSONSchemaUtils.getArquivoJsonSchema(schemasPath + "cadastro-de-caminhao-bem-sucedido.json");
             default -> throw new IllegalStateException("Arquivo JSON Schema não encontrado: " + contract);
         }
     }

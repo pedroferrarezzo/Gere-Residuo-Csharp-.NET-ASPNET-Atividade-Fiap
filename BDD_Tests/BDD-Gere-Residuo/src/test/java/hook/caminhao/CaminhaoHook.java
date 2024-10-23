@@ -1,23 +1,23 @@
-package hook.bairro;
+package hook.caminhao;
 
 import io.cucumber.java.After;
 import lombok.Getter;
 import lombok.Setter;
-import services.bairro.CadastroBairroService;
+import services.caminhao.CadastroCaminhaoService;
 import services.usuario.CadastroUsuarioService;
 
-public class BairroHook {
+public class CaminhaoHook {
     @Getter
     @Setter
-    private static String bairroCriadoId;
-    private static final CadastroBairroService cadastroBairroService = new CadastroBairroService();
+    private static String caminhaoCriadoId;
+    private static final CadastroCaminhaoService cadastroCaminhaoService = new CadastroCaminhaoService();
     private static final CadastroUsuarioService cadastroUsuarioService = new CadastroUsuarioService();
     private static final String emailAdminBaseTeste = "adminbaseteste@gereresiduo.com.br";
     private static final String senhaAdminBaseTeste = "Teste123@";
 
-    @After(value = "@HOOK_CLEAN_BAIRRO_AFTER_SCENARIO", order = 1)
-    public static void afterExcluirBairroCriado() {
+    @After(value = "@HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO", order = 1)
+    public static void afterExcluirCaminhaoCriado() {
         String tokenJwt = cadastroUsuarioService.authenticateUsuario("/api/v1/Usuario/Login", emailAdminBaseTeste, senhaAdminBaseTeste);
-        cadastroBairroService.deleteBairro("/api/v1/Bairro", tokenJwt, bairroCriadoId);
+        cadastroCaminhaoService.deleteCaminhao("/api/v1/Caminhao", tokenJwt, caminhaoCriadoId);
     }
 }

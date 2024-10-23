@@ -4,9 +4,9 @@
 Funcionalidade: Deleção de bairro
   Como ADMIN ou OPERADOR do sistema
   Quero excluir um bairro
-  Para eventuais necessidades
+  Para fins de inutilização do registro
 
-  Contexto: Autenticação na API para obtenção do Token JWT
+  Contexto: Autenticação na API para obtenção do Token JWT e criação de bairro para deleção
     Dado que eu tenha os seguintes dados de usuário:
       | atributo       | valor                             |
       | usuarioEmail   | adminbaseteste@gereresiduo.com.br |
@@ -27,7 +27,7 @@ Funcionalidade: Deleção de bairro
     E o JSON Schema de validação a ser usado contra a resposta da API de cadastro de Bairro é o "Cadastro de bairro bem-sucedido"
     Então a resposta da requisição da API de cadastro de Bairro deve estar em conformidade com o JSON Schema selecionado
 
-  Cenário: Exclusão bem-sucedida de colaborador pelo ID
+  Cenário: Exclusão bem-sucedida de bairro pelo ID
     Dado que eu recupere o ID do bairro criado
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Bairro" passando o ID do bairro como Path Parameter
     Então o status code que a API de cadastro de Bairro deve retornar é o 204

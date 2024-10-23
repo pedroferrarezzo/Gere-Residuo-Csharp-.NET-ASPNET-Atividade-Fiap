@@ -5,7 +5,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.networknt.schema.ValidationMessage;
 import deserializer.ErrorModelDeserializer;
-import dto.usuario.UsuarioLoginDto;
 import hook.usuario.UsuarioHook;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
@@ -19,6 +18,9 @@ import model.token.TokenModel;
 import model.usuario.UsuarioModel;
 import org.json.JSONObject;
 import services.bairro.CadastroBairroService;
+import services.caminhao.CadastroCaminhaoService;
+import services.morador.CadastroMoradorService;
+import services.motorista.CadastroMotoristaService;
 import utils.JSONSchemaUtils;
 
 import java.io.IOException;
@@ -79,8 +81,7 @@ public class CadastroUsuarioService {
 
     public void authenticateUsuario(String endpoint) {
         String url = baseUrl + endpoint;
-        UsuarioLoginDto usuarioLoginDto = new UsuarioLoginDto(usuarioModel.getUsuarioEmail(), usuarioModel.getUsuarioSenha());
-        String bodyToSend = gson.toJson(usuarioLoginDto);
+        String bodyToSend = gson.toJson(usuarioModel);
 
         response = given()
                 .contentType(ContentType.JSON)
@@ -95,9 +96,10 @@ public class CadastroUsuarioService {
 
     public String authenticateUsuario(String endpoint, String email, String password) {
         String url = baseUrl + endpoint;
-        UsuarioLoginDto usuarioLoginDto = new UsuarioLoginDto(email, password);
-        String bodyToSend = gson.toJson(usuarioLoginDto);
-
+        UsuarioModel usuarioLogin = new UsuarioModel();
+        usuarioLogin.setUsuarioEmail(email);
+        usuarioLogin.setUsuarioSenha(password);
+        String bodyToSend = gson.toJson(usuarioLogin);
         response = given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -124,7 +126,11 @@ public class CadastroUsuarioService {
     public void setTokenJwt() {
         String deserializedToken = String.valueOf(gson.fromJson(response.jsonPath().prettify(), TokenModel.class).getToken());
         tokenJwt = deserializedToken;
+
         CadastroBairroService.setTokenJwt(deserializedToken);
+        CadastroMoradorService.setTokenJwt(deserializedToken);
+        CadastroCaminhaoService.setTokenJwt(deserializedToken);
+        CadastroMotoristaService.setTokenJwt(deserializedToken);
     }
 
     public void validateTokenJwt() {

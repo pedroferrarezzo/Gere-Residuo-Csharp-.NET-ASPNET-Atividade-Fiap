@@ -1,0 +1,86 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729690423.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "motoristaId",
+    "motoristaNome",
+    "motoristaCpf",
+    "motoristaNrCelular",
+    "motoristaNrCelularDdd",
+    "motoristaNrCelularDdi",
+    "motoristaEstaDisponivel"
+  ],
+  "properties": {
+    "motoristaId": {
+      "$id": "#root/motoristaId",
+      "title": "Motoristaid",
+      "type": "integer",
+      "examples": [
+        42
+      ],
+      "default": 0
+    },
+    "motoristaNome": {
+      "$id": "#root/motoristaNome",
+      "title": "Motoristanome",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Mariana Mario"
+      ],
+      "pattern": "^.*$"
+    },
+    "motoristaCpf": {
+      "$id": "#root/motoristaCpf",
+      "title": "Motoristacpf",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "558.128.717-44"
+      ],
+      "pattern": "^.*$"
+    },
+    "motoristaNrCelular": {
+      "$id": "#root/motoristaNrCelular",
+      "title": "Motoristanrcelular",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "013899113"
+      ],
+      "pattern": "^.*$"
+    },
+    "motoristaNrCelularDdd": {
+      "$id": "#root/motoristaNrCelularDdd",
+      "title": "Motoristanrcelularddd",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "23"
+      ],
+      "pattern": "^.*$"
+    },
+    "motoristaNrCelularDdi": {
+      "$id": "#root/motoristaNrCelularDdi",
+      "title": "Motoristanrcelularddi",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "63"
+      ],
+      "pattern": "^.*$"
+    },
+    "motoristaEstaDisponivel": {
+      "$id": "#root/motoristaEstaDisponivel",
+      "title": "Motoristaestadisponivel",
+      "type": "boolean",
+      "examples": [
+        true
+      ],
+      "default": true
+    }
+  }
+}

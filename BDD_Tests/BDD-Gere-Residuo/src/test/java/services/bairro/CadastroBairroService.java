@@ -45,7 +45,7 @@ public class CadastroBairroService {
 
         switch(atributo) {
             case "bairroId" -> bairroModel.setBairroId(Integer.parseInt(valor.toString()));
-            case "percentualColetaLixoBairro" -> bairroModel.setPercentualColetaLixoBairro((int) valor);
+            case "percentualColetaLixoBairro" -> bairroModel.setPercentualColetaLixoBairro(Integer.parseInt(valor.toString()));
             case "bairroEstaDisponivel" -> bairroModel.setBairroEstaDisponivel((boolean) valor);
             case "bairroNome" -> bairroModel.setBairroNome((String) valor);
             case "quantidadeLixeiras" -> bairroModel.setQuantidadeLixeiras(Integer.parseInt(valor.toString()));

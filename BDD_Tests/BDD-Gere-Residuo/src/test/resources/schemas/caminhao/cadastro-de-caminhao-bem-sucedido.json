@@ -1,0 +1,75 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729686588.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "caminhaoId",
+    "caminhaoPlaca",
+    "dataFabricacao",
+    "caminhaoMarca",
+    "caminhaoModelo",
+    "caminhaoEstaDisponivel"
+  ],
+  "properties": {
+    "caminhaoId": {
+      "$id": "#root/caminhaoId",
+      "title": "Caminhaoid",
+      "type": "integer",
+      "examples": [
+        22
+      ],
+      "default": 0
+    },
+    "caminhaoPlaca": {
+      "$id": "#root/caminhaoPlaca",
+      "title": "Caminhaoplaca",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "COR4C62"
+      ],
+      "pattern": "^.*$"
+    },
+    "dataFabricacao": {
+      "$id": "#root/dataFabricacao",
+      "title": "Datafabricacao",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-06-07"
+      ],
+      "pattern": "^.*$"
+    },
+    "caminhaoMarca": {
+      "$id": "#root/caminhaoMarca",
+      "title": "Caminhaomarca",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Volkswagen"
+      ],
+      "pattern": "^.*$"
+    },
+    "caminhaoModelo": {
+      "$id": "#root/caminhaoModelo",
+      "title": "Caminhaomodelo",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Volvo X"
+      ],
+      "pattern": "^.*$"
+    },
+    "caminhaoEstaDisponivel": {
+      "$id": "#root/caminhaoEstaDisponivel",
+      "title": "Caminhaoestadisponivel",
+      "type": "boolean",
+      "examples": [
+        true
+      ],
+      "default": true
+    }
+  }
+}

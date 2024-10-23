@@ -89,6 +89,8 @@
                 <configuration>
                     <includes>
                         <include>**/runner.usuario/Test**.java</include>
+                        <include>**/runner.bairro/Test**.java</include>
+                        <include>**/runner.morador/Test**.java</include>
                     </includes>
                 </configuration>
             </plugin>
