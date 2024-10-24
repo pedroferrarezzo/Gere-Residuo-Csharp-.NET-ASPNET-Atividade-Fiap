@@ -168,14 +168,17 @@ Utilizando a linguagem Gherkin, cenários de testes foram desenvolvidos para val
   - Hooks: utilizados para executar códigos de limpeza do ambiente de teste após a execução dos cenários;
   - TestRunner: classe utilizada para gerenciar a execução dos testes e geração de reports.
 - Funcionalidades escritas:
+  
   ![1729790600790](image/README/1729790600790.png)
+  
 - Exemplo de report de execução gerado pelo TestRunner:
   ![1729790732394](image/README/1729790732394.png)
 - Integração com a pipeline de CI/CD - testes executados no script de CD do ambiente de desenvolvimento:
   - Uso de variáveis de ambiente na URL base de requisições para a API;
     ![1729792217279](image/README/1729792217279.png)
     ![1729792374137](image/README/1729792374137.png)
-- Uso de ENUMs no JSONSchema para atributos que aceitam apenas valores específicos:
+- Uso de ENUMs no JSONSchema para atributos que aceitam apenas valores específicos.
+  
   ![1729792686494](image/README/1729792686494.png)
 
 
