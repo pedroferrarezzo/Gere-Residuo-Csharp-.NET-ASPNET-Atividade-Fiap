@@ -53,7 +53,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   um token JWT com a Role ADMIN;
 - O tempo de expiração do Token JWT padrão é de 5 minutos;
 - Anatomia de um Token JWT de exemplo;
-  
+
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/a6ae8f4c-8bce-4086-a4e3-fb42b6f613b0)
 - Dados sensíveis foram inseridos no arquivo “appsettings.json”, como:
   strings de conexão com o banco de dados, usuário e senha SMTP...
@@ -64,13 +64,13 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 
 - Toda a API está devidamente documentada no Swagger. A UI dele Inclui:
   - Versionamento;
-    
+
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/8ad2b1d5-e6ef-4b8d-aed2-104b4cda7a4b)
   - Botão de autenticação “Token JWT”;
-    
+
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/b7680863-6178-4b22-8952-3436cbc6cc48)
   - Comentários personalizados por endpoint.
-    
+
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/adbe7981-e68f-4b5f-ae42-9bf3c706a5c7)
 
 # INTEGRAÇÃO - SERVIDOR SMTP
@@ -88,20 +88,21 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 
 - O conceito de DI foi amplamente utilizado no projeto, sendo o contêiner
   de DI “IServiceCollection” configurado no arquivo “program.cs”;
-  
+
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/fb18a32c-0f6c-4f72-8acd-46766dd82a27)
 - Utilizando o “xUnit”, e a biblioteca “MOQ” para criar um DbContext
   mockado, quatro testes unitários foram implementados, por controller,
   para validar os seguintes critérios em Actions GET:
+
   - Status Code 200;
   - Status Code 404 quando uma referência inválida for passada;
   - Status Code 200 quanndo uma referência válida for passada;
   - Três registros retornados.
-    
+
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/9706962d-c1fa-4119-865b-5363e223bdbd)
     ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/3404c5a9-5583-40ca-b02c-bd519d544f4c)
 - Execução de todos os testes a partir do “Text Explorer”.
-  
+
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/c75d7825-c419-4afd-87d9-b275cc9cdb3e)
 
 # OUTROS DETALHES DO PROJETO
@@ -120,7 +121,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   na classe “DatabaseContext” e os “DbSets”;![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/cce336ca-1df3-4b1d-93c6-471c8bf50a59)
 - Em alguns atributos específicos foi praticado o uso de Enums, como por
   exemplo no atributo Role da entidade Usuário;
-  
+
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/b7762df8-b6c2-4450-b39d-d3c84a0488bd)
 - Endpoints de POST e PUT devolvem no Body da requisição de resposta
   o objeto criado/atualizado, além de um atributo location no header da
@@ -130,6 +131,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 # CI/CD
 
 ### Arquitetura da Pipeline
+
 ![arquitetura](https://github.com/user-attachments/assets/4fe428d6-065a-40a4-a605-c74213a7c715)
 
 ### Criação da infraestrutura de deploy
@@ -200,7 +202,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   ```
   8080 (TCP)
   ```
-- PORT_INGRESS_CONTAINER_API_STAGING: Porta que o container do ambiente de staging expõe a API; 
+- PORT_INGRESS_CONTAINER_API_STAGING: Porta que o container do ambiente de staging expõe a API;
   ```
   8080 (TCP)
   ```
@@ -227,6 +229,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 - SSH_USER: Usuário criado na máquina virtual.
 
 ### Testando o fluxo de CI/CD
+
 - Clonar o repositório localmente;
 - Criar uma branch a partir da branch master `git checkout master | git checkout -b xxx/nome-da-sua-branch`;
 - Desenvolver uma nova funcionalidade e escrever os testes unitários correspondentes com xUnit, no projeto de teste;
@@ -263,4 +266,3 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   - `Docker/SCRIPTS-SQL-STAGING`.
 - A imagem utilizado para o container do banco de dados (Oracle XE) é `gvenzl/oracle-xe` -> https://hub.docker.com/r/gvenzl/oracle-xe
 - A `collection.json` do Insomnia pode ser encontrada na pasta `INSOMNIA/gereresiduocollection.json`.
-
