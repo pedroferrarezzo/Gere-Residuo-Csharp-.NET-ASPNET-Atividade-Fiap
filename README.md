@@ -132,7 +132,7 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 
 Utilizando a linguagem Gherkin, cenários de testes foram desenvolvidos para validar endpoints relacionados á principal funcionalidade da aplicação: Abertura de agenda e notificação aos moradores.
 
-#### Linguagens utilizadas e bibliotecas:
+### Linguagens utilizadas e bibliotecas:
 
 - Java 21;
 - Gherkin;
