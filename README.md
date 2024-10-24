@@ -128,6 +128,57 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
   requisição de resposta com a URI de consulta correspondente.
   ![image](https://github.com/pedroferrarezzo/Gere-Residuo-Csharp-.NET-ASPNET-Atividade-Fiap/assets/124400471/479bf860-3552-438c-bfab-ff22d66dc5fd)
 
+# Behavior Driven Development
+
+Utilizando a linguagem Gherkin, cenários de testes foram desenvolvidos para validar endpoints relacionados á principal funcionalidade da aplicação: Abertura de agenda e notificação aos moradores.
+
+#### Linguagens utilizadas e bibliotecas:
+
+- Java 21;
+- Gherkin;
+- cucumber-java 7.18.1;
+- lombok 1.18.34;
+- rest-assured 5.5.0;
+- gson 2.11.0;
+- cucumber-junit 7.18.1;
+- json-schema-validator 1.5.1;
+- json 20240303;
+- jjwt-jackson 0.11.5;
+- jjwt-api 0.11.5;
+- jjwt-impl 0.11.5;
+- maven-surefire-plugin 3.0.0-M5.
+
+### Detalhes do Projeto
+
+- Testes desenvolvidos incluem as seguintes validações:
+
+  - Validação de Status Code;
+  - Validação do body de resposta;
+  - Validação de contrato (JSON Schema).
+- Recursos Gherkin utilizados:
+
+  - Contexto: utilzado para definir padrões de estado para execução dos cenários;
+  - Tags: utilizadas para organizar e controlar o fluxo de execução dos testes/hooks;
+    - @AGENDA, @BAIRRO, @CAMINHAO, @MORADOR, @MOTORISTA, @NOTIFICACAO e @USUARIO: utilizados para agrupar testes relacionados a mesma entidade;
+    - @REGRESSAO: utilizado para agrupar testes que servem para validar que mudanças recentes não introduziram novos erros em funcionalidades existentes;
+    - @SMOKE: utilizado para agrupar testes rápidos que verificam funcionalidades principais da aplicação, garantindo que o sistema está operacional;
+    - @FUNCIONAL: utilizado para agrupar testes que validam funcionalidades específicas da aplicação;
+    - @CREATE: utilizado para agrupar testes referentes a operações de CRIAÇÃO de registros;
+    - @DELETE: utilizado para agrupar testes referentes a operações de DELEÇÃO de registros;
+  - Hooks: utilizados para executar códigos de limpeza do ambiente de teste após a execução dos cenários;
+  - TestRunner: classe utilizada para gerenciar a execução dos testes e geração de reports.
+- Funcionalidades escritas:
+  ![1729790600790](image/README/1729790600790.png)
+- Exemplo de report de execução gerado pelo TestRunner:
+  ![1729790732394](image/README/1729790732394.png)
+- Integração com a pipeline de CI/CD - testes executados no script de CD do ambiente de desenvolvimento:
+  - Uso de variáveis de ambiente na URL base de requisições para a API;
+    ![1729792217279](image/README/1729792217279.png)
+    ![1729792374137](image/README/1729792374137.png)
+- Uso de ENUMs no JSONSchema para atributos que aceitam apenas valores específicos:
+  ![1729792686494](image/README/1729792686494.png)
+
+
 # CI/CD
 
 ### Arquitetura da Pipeline
@@ -235,9 +286,11 @@ Você vai aproveitar o poder do .NET Core 8 para criar serviços RESTful que ate
 - Desenvolver uma nova funcionalidade e escrever os testes unitários correspondentes com xUnit, no projeto de teste;
 - Efetuar o push para o repositório remoto `git push origin xxx/nome-da-sua-branch`;
 - Abrir um Pull Request da branch `xxx/nome-da-sua-branch` para a branch de desenvolvimento;
-  - Acompanhar a execução do script de CI.
+  - Acompanhar a execução do script de CI:
+    - Acompanhar também a execução dos testes unitários presentes no job: `tests`
 - Aprovar o PR para a branch de desenvolvimento;
-  - Acompanhar a execução do script de CD.
+  - Acompanhar a execução do script de CD:
+    - Acompanhar também a execução dos testes de BDD presentes no job: `bdd-tests`
 - Validar o deployment no ambiente de desenvolvimento;
   - Acesse o servidor via SSH:
     - Verifique os recursos docker criados;
