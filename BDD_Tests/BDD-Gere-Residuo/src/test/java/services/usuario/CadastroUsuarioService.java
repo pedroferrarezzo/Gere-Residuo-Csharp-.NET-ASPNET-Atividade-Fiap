@@ -47,7 +47,7 @@ public class CadastroUsuarioService {
     private final String schemasPath = "src/test/resources/schemas/usuario/";
     private JSONObject jsonSchema;
     private final ObjectMapper mapper = new ObjectMapper();
-    private final String baseUrl = "http://52.170.197.27:80";
+    private final String baseUrl = String.format("http://%s:%s", System.getenv("SERVER_IP"), System.getenv("SERVER_PORT"));
 
     public <T> void setAtributoUsuario(String atributo, T valor) {
 

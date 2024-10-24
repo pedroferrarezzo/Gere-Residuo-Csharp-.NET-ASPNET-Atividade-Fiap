@@ -303,3 +303,16 @@ ALTER SESSION SET CURRENT_SCHEMA = development_user;
 
   ALTER TABLE "T_GR_NOTIFICACAO" ADD CONSTRAINT "FK_T_GR_NOTIFICACAO_AGENDA" FOREIGN KEY ("agenda_id")
 	  REFERENCES "T_GR_AGENDA" ("agenda_id") ENABLE;
+
+--------------------------------------------------------
+--  DML for Table T_GR_USARIO
+--------------------------------------------------------
+INSERT INTO "T_GR_USUARIO" 
+("usuario_nome","usuario_email","usuario_senha","usuario_role") 
+values ('Admin Base Teste','adminbaseteste@gereresiduo.com.br','93f82e739e7418e6107da4051fb5dd8223707e3887aa27dfd32c8855e80d77f7','ADMIN');
+
+--------------------------------------------------------
+--  TCL
+--------------------------------------------------------
+
+COMMIT;

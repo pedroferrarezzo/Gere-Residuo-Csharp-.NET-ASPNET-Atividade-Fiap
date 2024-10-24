@@ -40,7 +40,7 @@ public class CadastroMoradorService {
     private final String schemasPath = "src/test/resources/schemas/morador/";
     private JSONObject jsonSchema;
     private final ObjectMapper mapper = new ObjectMapper();
-    private final String baseUrl = "http://52.170.197.27:80";
+    private final String baseUrl = String.format("http://%s:%s", System.getenv("SERVER_IP"), System.getenv("SERVER_PORT"));
 
     public <T> void setAtributoMorador(String atributo, T valor) {
 
