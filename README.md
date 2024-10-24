@@ -174,7 +174,7 @@ Utilizando a linguagem Gherkin, cenários de testes foram desenvolvidos para val
 - Exemplo de report de execução gerado pelo TestRunner:
   ![1729790732394](image/README/1729790732394.png)
 - Integração com a pipeline de CI/CD - testes executados no script de CD do ambiente de desenvolvimento:
-  - Uso de variáveis de ambiente na URL base de requisições para a API;
+  - Uso de variáveis de ambiente na URL base de requisições para a API.
     ![1729792217279](image/README/1729792217279.png)
     ![1729792374137](image/README/1729792374137.png)
 - Uso de ENUMs no JSONSchema para atributos que aceitam apenas valores específicos.
