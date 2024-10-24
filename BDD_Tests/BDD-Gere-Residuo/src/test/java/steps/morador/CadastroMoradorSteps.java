@@ -69,8 +69,9 @@ public class CadastroMoradorSteps {
         cadastroMoradorService.deleteMorador(endpoint);
     }
 
-    @Dado("que eu especifique um ID de morador invalido")
-    public void queEuEspecifiqueUmIDDeMoradorInvalido() {
-        cadastroMoradorService.setMoradorIdInvalido();
+    @Dado("que eu especifique um ID de morador invalido: {int}")
+    public void queEuEspecifiqueUmIDDeMoradorInvalido(int id) {
+        cadastroMoradorService.setMoradorIdInvalido(id);
+
     }
 }

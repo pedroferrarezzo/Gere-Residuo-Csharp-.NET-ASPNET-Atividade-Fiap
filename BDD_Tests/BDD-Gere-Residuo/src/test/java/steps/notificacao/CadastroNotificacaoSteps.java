@@ -28,16 +28,16 @@ public class CadastroNotificacaoSteps {
         Assert.assertEquals(statusCode, cadastroNotificacaoService.getResponse().statusCode());
     }
 
-    @Dado("que eu especifique um ID de notificação invalido")
-    public void queEuEspecifiqueUmIDDeNotificaçãoInvalido() {
-        cadastroNotificacaoService.setNotificacaoIdInvalido();
-    }
-
     @E("a API de cadastro de Notificação deve retornar um objeto JSON contendo uma mensagem de erro: {string}")
     public void aAPIDeCadastroDeNotificaçãoDeveRetornarUmObjetoJSONContendoUmaMensagemDeErro(String message) {
         ErrorModel errorModel = cadastroNotificacaoService.getGson().fromJson(
                 cadastroNotificacaoService.getResponse().jsonPath().prettify(), ErrorModel.class
         );
         Assert.assertEquals(message, errorModel.getErrorMessages().getFirst());
+    }
+
+    @Dado("que eu especifique um ID de notificação invalido: {int}")
+    public void queEuEspecifiqueUmIDDeNotificaçãoInvalido(int id) {
+        cadastroNotificacaoService.setNotificacaoIdInvalido(id);
     }
 }

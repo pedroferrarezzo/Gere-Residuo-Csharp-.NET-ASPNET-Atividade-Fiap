@@ -91,7 +91,7 @@ public class CadastroNotificacaoService {
                 .response();
     }
 
-    public void setNotificacaoIdInvalido() {
-        notificacaoId = 0;
+    public void setNotificacaoIdInvalido(int id) {
+        notificacaoId = id;
     }
 }

@@ -43,8 +43,15 @@ Funcionalidade: Deleção de morador
     Então o status code que a API de cadastro de Morador deve retornar é o 204
 
   @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO
-  Cenário: Exclusão mal-sucedida de morador pelo ID
-    Dado que eu especifique um ID de morador invalido
+  Cenário: Exclusão mal-sucedida de morador ao informar um ID inexistente
+    Dado que eu especifique um ID de morador invalido: 0
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Morador" passando o ID do morador como Path Parameter
     Então o status code que a API de cadastro de Morador deve retornar é o 404
     E a API de cadastro de Morador deve retornar um objeto JSON contendo uma mensagem de erro: "O morador de ID: 0 não existe!"
+
+  @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO
+  Cenário: Exclusão mal-sucedida de morador ao informar um ID negativo
+    Dado que eu especifique um ID de morador invalido: -1
+    Quando uma requisição DELETE for enviada para a rota "/api/v1/Morador" passando o ID do morador como Path Parameter
+    Então o status code que a API de cadastro de Morador deve retornar é o 404
+    E a API de cadastro de Morador deve retornar um objeto JSON contendo uma mensagem de erro: "O morador de ID: -1 não existe!"

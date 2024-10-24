@@ -90,7 +90,7 @@ Funcionalidade: Abertura de agenda
     Quando eu recuperar os IDs de caminhão, motorista e bairro criados
     Então uma requisição POST for enviada para a rota "/api/v1/Agenda" de cadastro de agenda
     E o status code que a API de cadastro de Agenda deve retornar é o 400
-    Então a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro que começe com: "A data de agenda da coleta de lixo é menor que o dia de hoje"
+    Então a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro que comece com: "A data de agenda da coleta de lixo é menor que o dia de hoje"
 
 
   @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO

@@ -88,8 +88,15 @@ Funcionalidade: Deleção de notificação para disparo de notificações via SM
     Então o status code que a API de cadastro de Notificação deve retornar é o 204
 
   @HOOK_CLEAN_NOTIFICACAO_AFTER_SCENARIO @HOOK_CLEAN_AGENDA_AFTER_SCENARIO @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO
-  Cenário: Exclusão mal-sucedida de notificação pelo ID
-    Dado que eu especifique um ID de notificação invalido
+  Cenário: Exclusão mal-sucedida de notificação ao informar um ID inexistente
+    Dado que eu especifique um ID de notificação invalido: 0
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Notificacao" passando o ID da notificação como Path Parameter
     Então o status code que a API de cadastro de Notificação deve retornar é o 404
     E a API de cadastro de Notificação deve retornar um objeto JSON contendo uma mensagem de erro: "A notificação de ID: 0 não existe!"
+
+  @HOOK_CLEAN_NOTIFICACAO_AFTER_SCENARIO @HOOK_CLEAN_AGENDA_AFTER_SCENARIO @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO
+  Cenário: Exclusão mal-sucedida de notificação ao informar um ID negativo
+    Dado que eu especifique um ID de notificação invalido: -1
+    Quando uma requisição DELETE for enviada para a rota "/api/v1/Notificacao" passando o ID da notificação como Path Parameter
+    Então o status code que a API de cadastro de Notificação deve retornar é o 404
+    E a API de cadastro de Notificação deve retornar um objeto JSON contendo uma mensagem de erro: "A notificação de ID: -1 não existe!"

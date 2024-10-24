@@ -40,3 +40,14 @@ Funcionalidade: Cadastro de novo CAMINHAO
     Quando uma requisição POST for enviada para a rota "/api/v1/Caminhao" de cadastro de caminhao
     Então o status code que a API de cadastro de Caminhao deve retornar é o 400
     E a API de cadastro de Caminhao deve retornar um objeto JSON contendo uma mensagem de erro: "A placa do caminhão é obrigatória!"
+
+  Cenário: Cadastro de caminhão mal-sucedido ao fornecer uma data de fabricação maior que o dia atual
+    Dado que eu tenha os seguintes dados de caminhao:
+      | atributo       | valor      |
+      | caminhaoPlaca  | COR4C62    |
+      | dataFabricacao | 2026-06-07 |
+      | caminhaoMarca  | Volkswagen |
+      | caminhaoModelo | Volvo X    |
+    Quando uma requisição POST for enviada para a rota "/api/v1/Caminhao" de cadastro de caminhao
+    Então o status code que a API de cadastro de Caminhao deve retornar é o 400
+    E a API de cadastro de Caminhão deve retornar um objeto JSON contendo uma mensagem de erro que comece com: "A data de fabricação do caminhão inserida é maior que o dia de hoje"

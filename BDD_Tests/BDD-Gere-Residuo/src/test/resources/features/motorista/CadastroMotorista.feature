@@ -42,3 +42,15 @@ Funcionalidade: Cadastro de novo MOTORISTA
     Quando uma requisição POST for enviada para a rota "/api/v1/Motorista" de cadastro de motorista
     Então o status code que a API de cadastro de Motorista deve retornar é o 400
     E a API de cadastro de Motorista deve retornar um objeto JSON contendo uma mensagem de erro: "O cpf do motorista é obrigatório!"
+
+  Cenário: Cadastro de motorista mal-sucedido ao especificar um CPF no formato incorreto
+    Dado que eu tenha os seguintes dados de motorista:
+      | atributo              | valor           |
+      | motoristaNome         | Mariana Mario   |
+      | motoristaCpf          | 558.128.717-4-0 |
+      | motoristaNrCelular    | 013899113       |
+      | motoristaNrCelularDdd | 23              |
+      | motoristaNrCelularDdi | 63              |
+    Quando uma requisição POST for enviada para a rota "/api/v1/Motorista" de cadastro de motorista
+    Então o status code que a API de cadastro de Motorista deve retornar é o 400
+    E a API de cadastro de Motorista deve retornar um objeto JSON contendo uma mensagem de erro: "O cpf do motorista deve estar no formato correto! (123.456.789-09)"

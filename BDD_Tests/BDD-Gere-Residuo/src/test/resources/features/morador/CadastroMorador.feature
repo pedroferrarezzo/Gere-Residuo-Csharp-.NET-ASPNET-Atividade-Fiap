@@ -48,3 +48,15 @@ Funcionalidade: Cadastro de novo MORADOR
     Quando uma requisição POST for enviada para a rota "/api/v1/Morador" de cadastro de morador
     Então o status code que a API de cadastro de Morador deve retornar é o 400
     E a API de cadastro de Morador deve retornar um objeto JSON contendo uma mensagem de erro: "O Id do bairro do morador deve ser um número positivo maior que 0."
+
+
+  @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO
+  Cenário: Cadastro de morador mal-sucedido ao especificar um endereço de email invalido
+    Dado que eu tenha os seguintes dados de morador:
+      | atributo     | valor                         |
+      | moradorNome  | Morador BDD                   |
+      | moradorEmail | moradorbddgereresiduo.com.br |
+    Quando eu recuperar o ID do bairro criado no contexto
+    Então uma requisição POST for enviada para a rota "/api/v1/Morador" de cadastro de morador
+    E o status code que a API de cadastro de Morador deve retornar é o 400
+    Então a API de cadastro de Morador deve retornar um objeto JSON contendo uma mensagem de erro: "Insira um endereço de e-mail válido."

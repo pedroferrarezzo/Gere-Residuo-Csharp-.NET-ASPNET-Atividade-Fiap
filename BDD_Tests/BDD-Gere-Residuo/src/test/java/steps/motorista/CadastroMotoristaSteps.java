@@ -64,11 +64,6 @@ public class CadastroMotoristaSteps {
         cadastroMotoristaService.deleteMotorista(endpoint);
     }
 
-    @Dado("que eu especifique um ID de motorista invalido")
-    public void queEuEspecifiqueUmIDDeMotoristaInvalido() {
-        cadastroMotoristaService.setMotoristaIdInvalido();
-    }
-
     @Então("uma requisição GET deve ser enviada para {string} passando o ID do motorista da agenda como Path Parameter para obter o seu estado atual")
     public void umaRequisiçãoGETDeveSerEnviadaParaPassandoOIDDoMotoristaDaAgendaComoPathParameterParaObterOSeuEstadoAtual(String endpoint) {
         cadastroMotoristaService.getMotorista(endpoint);
@@ -77,5 +72,10 @@ public class CadastroMotoristaSteps {
     @E("o atributo motoristaEstaDisponivel deve ser igual a {string}")
     public void oAtributoMotoristaEstaDisponivelDeveSerIgualA(String condition) {
         cadastroMotoristaService.validateMotoristaEstaDisponivel(condition);
+    }
+
+    @Dado("que eu especifique um ID de motorista invalido: {int}")
+    public void queEuEspecifiqueUmIDDeMotoristaInvalido(int id) {
+        cadastroMotoristaService.setMotoristaIdInvalido(id);
     }
 }

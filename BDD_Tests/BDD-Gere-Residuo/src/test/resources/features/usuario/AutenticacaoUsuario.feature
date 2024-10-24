@@ -40,3 +40,13 @@ Funcionalidade: Autenticação de usuário
     Quando uma requisição POST for enviada para a rota "/api/v1/Usuario/Login" de Login
     Então o status code esperado é o 401
     E a API deve retornar um objeto JSON contendo uma mensagem de erro: "Email ou senha incorretos!"
+
+  @HOOK_CLEAN_USUARIO_AFTER_SCENARIO
+  Cenário: Autenticação mal-sucedida de usuário ao especificar um endereço de email inválido
+    Dado que eu tenha os seguintes dados de usuário:
+      | atributo       | valor                      |
+      | usuarioEmail   | userbddgereresiduo.com.br |
+      | usuarioSenha   | Teste1234567@              |
+    Quando uma requisição POST for enviada para a rota "/api/v1/Usuario/Login" de Login
+    Então o status code esperado é o 400
+    E a API deve retornar um objeto JSON contendo uma mensagem de erro: "Insira um endereço de e-mail válido."

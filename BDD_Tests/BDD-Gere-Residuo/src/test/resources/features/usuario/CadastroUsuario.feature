@@ -28,3 +28,14 @@ Funcionalidade: Cadastro de novo usuário OPERADOR
     Quando uma requisição POST for enviada para a rota "/api/v1/Usuario" de cadastro de usuário
     Então o status code esperado é o 400
     E a API deve retornar um objeto JSON contendo uma mensagem de erro: "A senha do usuário é obrigatória!"
+
+  Cenário: Cadastro de usuário mal-sucedido ao especificar um nome inválido
+    Dado que eu tenha os seguintes dados de usuário:
+      | atributo       | valor                          |
+      | usuarioNome    | 0p3r@d0r_BDD                   |
+      | usuarioEmail   | operadorbdd@gereresiduo.com.br |
+      | usuarioSenha   | Teste123@                      |
+      | usuarioRole    | OPERADOR                       |
+    Quando uma requisição POST for enviada para a rota "/api/v1/Usuario" de cadastro de usuário
+    Então o status code esperado é o 400
+    E a API deve retornar um objeto JSON contendo uma mensagem de erro: "O nome do usuário deve conter apenas letras e espaços."

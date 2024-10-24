@@ -35,8 +35,15 @@ Funcionalidade: Deleção de motorista
     Então o status code que a API de cadastro de Motorista deve retornar é o 204
 
   @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO
-  Cenário: Exclusão mal-sucedida de motorista pelo ID
-    Dado que eu especifique um ID de motorista invalido
+  Cenário: Exclusão mal-sucedida de motorista ao informar um ID inexistente
+    Dado que eu especifique um ID de motorista invalido: 0
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Motorista" passando o ID do motorista como Path Parameter
     Então o status code que a API de cadastro de Motorista deve retornar é o 404
     E a API de cadastro de Motorista deve retornar um objeto JSON contendo uma mensagem de erro: "O motorista de ID: 0 não existe!"
+
+  @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO
+  Cenário: Exclusão mal-sucedida de motorista ao informar um ID negativo
+    Dado que eu especifique um ID de motorista invalido: -1
+    Quando uma requisição DELETE for enviada para a rota "/api/v1/Motorista" passando o ID do motorista como Path Parameter
+    Então o status code que a API de cadastro de Motorista deve retornar é o 404
+    E a API de cadastro de Motorista deve retornar um objeto JSON contendo uma mensagem de erro: "O motorista de ID: -1 não existe!"

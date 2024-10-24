@@ -31,8 +31,15 @@ Funcionalidade: Deleção de usuário
     Então o status code esperado é o 204
 
   @HOOK_CLEAN_USUARIO_AFTER_SCENARIO
-  Cenário: Exclusão mal-sucedida de usuario pelo ID
-    Dado que eu especifique um ID de usuário invalido
+  Cenário: Exclusão mal-sucedida de usuario ao informar um ID inexistente
+    Dado que eu especifique um ID de usuario invalido: 0
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Usuario" passando o ID do usuário como Path Parameter
     Então o status code esperado é o 404
     E a API deve retornar um objeto JSON contendo uma mensagem de erro: "O usuário de ID: 0 não existe!"
+
+  @HOOK_CLEAN_USUARIO_AFTER_SCENARIO
+  Cenário: Exclusão mal-sucedida de usuario ao informar um ID negativo
+    Dado que eu especifique um ID de usuario invalido: -1
+    Quando uma requisição DELETE for enviada para a rota "/api/v1/Usuario" passando o ID do usuário como Path Parameter
+    Então o status code esperado é o 404
+    E a API deve retornar um objeto JSON contendo uma mensagem de erro: "O usuário de ID: -1 não existe!"

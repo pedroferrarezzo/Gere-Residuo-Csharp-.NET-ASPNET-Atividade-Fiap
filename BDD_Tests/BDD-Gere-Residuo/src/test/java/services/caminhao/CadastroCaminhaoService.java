@@ -70,6 +70,10 @@ public class CadastroCaminhaoService {
         }
     }
 
+    public void setCaminhaoIdInvalido(int id) {
+        caminhaoId = String.valueOf(id);
+    }
+
     public void createCaminhao(String endpoint) {
         String url = baseUrl + endpoint;
         String bodyToSend = gson.toJson(caminhaoModel);
@@ -108,10 +112,6 @@ public class CadastroCaminhaoService {
         if (caminhaoId == null) {
             caminhaoId = String.valueOf(gson.fromJson(response.jsonPath().prettify(), CaminhaoModel.class).getCaminhaoId());
         }
-    }
-
-    public void setCaminhaoIdInvalido() {
-        caminhaoId = "0";
     }
 
     public void deleteCaminhao(String endpoint) {

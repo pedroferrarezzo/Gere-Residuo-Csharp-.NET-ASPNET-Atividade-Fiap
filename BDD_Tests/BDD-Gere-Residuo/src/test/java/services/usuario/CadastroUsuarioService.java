@@ -121,8 +121,8 @@ public class CadastroUsuarioService {
         }
     }
 
-    public void setUsuarioIdInvalido() {
-        usuarioId = "0";
+    public void setUsuarioIdInvalido(int id) {
+        usuarioId = String.valueOf(id);
     }
 
     public void setTokenJwt() {

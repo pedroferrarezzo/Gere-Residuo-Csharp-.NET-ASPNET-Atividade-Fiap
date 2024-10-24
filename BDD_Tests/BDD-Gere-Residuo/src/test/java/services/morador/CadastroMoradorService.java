@@ -80,8 +80,8 @@ public class CadastroMoradorService {
         }
     }
 
-    public void setMoradorIdInvalido() {
-        moradorId = "0";
+    public void setMoradorIdInvalido(int id) {
+        moradorId = String.valueOf(id);
     }
 
     public void setAtributoBairroId() {

@@ -80,8 +80,8 @@ public class CadastroUsuarioSteps {
         cadastroUsuarioService.setUsuarioId();
     }
 
-    @Dado("que eu especifique um ID de usuário invalido")
-    public void queEuEspecifiqueUmIDDeUsuárioInvalido() {
-        cadastroUsuarioService.setUsuarioIdInvalido();
+    @Dado("que eu especifique um ID de usuario invalido: {int}")
+    public void queEuEspecifiqueUmIDDeUsuarioInvalido(int id) {
+        cadastroUsuarioService.setUsuarioIdInvalido(id);
     }
 }

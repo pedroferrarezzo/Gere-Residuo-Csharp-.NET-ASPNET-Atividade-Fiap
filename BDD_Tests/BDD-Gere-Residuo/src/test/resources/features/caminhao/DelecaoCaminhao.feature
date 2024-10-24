@@ -34,8 +34,15 @@ Funcionalidade: Deleção de caminhao
     Então o status code que a API de cadastro de Caminhao deve retornar é o 204
 
   @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO
-  Cenário: Exclusão mal-sucedida de caminhao pelo ID
-    Dado que eu especifique um ID de caminhao invalido
+  Cenário: Exclusão mal-sucedida de caminhão ao informar um ID inexistente
+    Dado que eu especifique um ID de caminhão invalido: 0
     Quando uma requisição DELETE for enviada para a rota "/api/v1/Caminhao" passando o ID do caminhao como Path Parameter
     Então o status code que a API de cadastro de Caminhao deve retornar é o 404
     E a API de cadastro de Caminhao deve retornar um objeto JSON contendo uma mensagem de erro: "O caminhão de ID: 0 não existe!"
+
+  @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO
+  Cenário: Exclusão mal-sucedida de caminhão ao informar um ID negativo
+    Dado que eu especifique um ID de caminhão invalido: -1
+    Quando uma requisição DELETE for enviada para a rota "/api/v1/Caminhao" passando o ID do caminhao como Path Parameter
+    Então o status code que a API de cadastro de Caminhao deve retornar é o 404
+    E a API de cadastro de Caminhao deve retornar um objeto JSON contendo uma mensagem de erro: "O caminhão de ID: -1 não existe!"

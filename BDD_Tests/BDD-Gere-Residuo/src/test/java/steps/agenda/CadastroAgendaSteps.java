@@ -52,8 +52,8 @@ public class CadastroAgendaSteps {
         Assert.assertTrue("A estrutura JSON de resposta da API não está de acordo com o JSONSChema. Erros encontrados: " + validateResponse, validateResponse.isEmpty());
     }
 
-    @E("a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro que começe com: {string}")
-    public void aAPIDeCadastroDeAgendaDeveRetornarUmObjetoJSONContendoUmaMensagemDeErroQueComeçeCom(String message) {
+    @E("a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro que comece com: {string}")
+    public void aAPIDeCadastroDeAgendaDeveRetornarUmObjetoJSONContendoUmaMensagemDeErroQueComeceCom(String message) {
         ErrorModel errorModel = cadastroAgendaService.getGson().fromJson(
                 cadastroAgendaService.getResponse().jsonPath().prettify(), ErrorModel.class
         );

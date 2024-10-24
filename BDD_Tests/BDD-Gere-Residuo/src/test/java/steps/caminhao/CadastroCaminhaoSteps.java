@@ -65,11 +65,6 @@ public class CadastroCaminhaoSteps {
         cadastroCaminhaoService.deleteCaminhao(endpoint);
     }
 
-    @Dado("que eu especifique um ID de caminhao invalido")
-    public void queEuEspecifiqueUmIDDeCaminhaoInvalido() {
-        cadastroCaminhaoService.setCaminhaoIdInvalido();
-    }
-
     @Então("uma requisição GET deve ser enviada para {string} passando o ID do caminhao da agenda como Path Parameter para obter o seu estado atual")
     public void umaRequisiçãoGETDeveSerEnviadaParaPassandoOIDDoCaminhaoDaAgendaComoPathParameterParaObterOSeuEstadoAtual(String endpoint) {
         cadastroCaminhaoService.getCaminhao(endpoint);
@@ -78,5 +73,18 @@ public class CadastroCaminhaoSteps {
     @E("o atributo caminhaoEstaDisponivel deve ser igual a {string}")
     public void oAtributoCaminhaoEstaDisponivelDeveSerIgualA(String condition) {
         cadastroCaminhaoService.validateCaminhaoEstaDisponivel(condition);
+    }
+
+    @E("a API de cadastro de Caminhão deve retornar um objeto JSON contendo uma mensagem de erro que comece com: {string}")
+    public void aAPIDeCadastroDeCaminhãoDeveRetornarUmObjetoJSONContendoUmaMensagemDeErroQueComeceCom(String message) {
+        ErrorModel errorModel = cadastroCaminhaoService.getGson().fromJson(
+                cadastroCaminhaoService.getResponse().jsonPath().prettify(), ErrorModel.class
+        );
+        Assert.assertTrue(errorModel.getErrorMessages().getFirst().startsWith(message));
+    }
+
+    @Dado("que eu especifique um ID de caminhão invalido: {int}")
+    public void queEuEspecifiqueUmIDDeCaminhãoInvalido(int id) {
+        cadastroCaminhaoService.setCaminhaoIdInvalido(id);
     }
 }

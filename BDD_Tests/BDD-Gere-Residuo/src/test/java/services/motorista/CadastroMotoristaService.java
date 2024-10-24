@@ -111,8 +111,8 @@ public class CadastroMotoristaService {
         }
     }
 
-    public void setMotoristaIdInvalido() {
-        motoristaId = "0";
+    public void setMotoristaIdInvalido(int id) {
+        motoristaId = String.valueOf(id);
     }
 
     public void deleteMotorista(String endpoint) {
