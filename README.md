@@ -158,7 +158,13 @@ Utilizando a linguagem Gherkin, cenários de testes foram desenvolvidos para val
 - Recursos Gherkin utilizados:
 
   - Contexto: utilzado para definir padrões de estado para execução dos cenários;
+    
+    ![image](https://github.com/user-attachments/assets/556f9a38-5d3f-4137-a5be-e076daab0725)
+
   - Tags: utilizadas para organizar e controlar o fluxo de execução dos testes/hooks;
+    
+    ![image](https://github.com/user-attachments/assets/a8dc7040-5178-44bc-81a8-c9365f9299be)
+
     - @AGENDA, @BAIRRO, @CAMINHAO, @MORADOR, @MOTORISTA, @NOTIFICACAO e @USUARIO: utilizados para agrupar testes relacionados a mesma entidade;
     - @REGRESSAO: utilizado para agrupar testes que servem para validar que mudanças recentes não introduziram novos erros em funcionalidades existentes;
     - @SMOKE: utilizado para agrupar testes rápidos que verificam funcionalidades principais da aplicação, garantindo que o sistema está operacional;
@@ -166,7 +172,18 @@ Utilizando a linguagem Gherkin, cenários de testes foram desenvolvidos para val
     - @CREATE: utilizado para agrupar testes referentes a operações de CRIAÇÃO de registros;
     - @DELETE: utilizado para agrupar testes referentes a operações de DELEÇÃO de registros;
   - Hooks: utilizados para executar códigos de limpeza do ambiente de teste após a execução dos cenários;
+ 
+    ![image](https://github.com/user-attachments/assets/c06a4f71-9440-4ba9-adca-42f25d5c22bd)    
+    ![image](https://github.com/user-attachments/assets/c28f33fa-dde7-4bd9-a96b-2d78deed06b5)
+    ![image](https://github.com/user-attachments/assets/14418ca1-3f1d-42d3-8c95-b1a518eb9b7f)
+
   - TestRunner: classe utilizada para gerenciar a execução dos testes e geração de reports.
+
+    ![image](https://github.com/user-attachments/assets/9608c89c-b9c4-43e4-9cd7-f68de0c6f30f)
+    ![image](https://github.com/user-attachments/assets/fe23ff58-9769-4a09-88f9-3d5da6967692)
+    
+    
+
 - Funcionalidades escritas:
   
   ![1729790600790](image/README/1729790600790.png)
