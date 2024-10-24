@@ -65,11 +65,6 @@ public class CadastroBairroSteps {
         cadastroBairroService.deleteBairro(endpoint);
     }
 
-    @Dado("que eu especifique um ID de bairro invalido")
-    public void queEuEspecifiqueUmIDDeBairroInvalido() {
-        cadastroBairroService.setBairroIdInvalido();
-    }
-
     @Então("uma requisição GET deve ser enviada para {string} passando o ID do bairro da agenda como Path Parameter para obter o seu estado atual")
     public void umaRequisiçãoGETDeveSerEnviadaParaPassandoOIDDoBairroDaAgendaComoPathParameterParaObterOSeuEstadoAtual(String endpoint) {
         cadastroBairroService.getBairro(endpoint);
@@ -78,5 +73,10 @@ public class CadastroBairroSteps {
     @E("o atributo bairroEstaDisponivel deve ser igual a {string}")
     public void oAtributoBairroEstaDisponivelDeveSerIgualA(String codition) {
         cadastroBairroService.validateBairroEstaDisponivel(codition);
+    }
+
+    @Dado("que eu especifique um ID de bairro invalido: {int}")
+    public void queEuEspecifiqueUmIDDeBairroInvalido(int id) {
+        cadastroBairroService.setBairroIdInvalido(id);
     }
 }

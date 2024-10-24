@@ -94,6 +94,7 @@
                         <include>**/runner.motorista/Test**.java</include>
                         <include>**/runner.caminhao/Test**.java</include>
                         <include>**/runner.agenda/Test**.java</include>
+                        <include>**/runner.notificacao/Test**.java</include>
                     </includes>
                 </configuration>
             </plugin>

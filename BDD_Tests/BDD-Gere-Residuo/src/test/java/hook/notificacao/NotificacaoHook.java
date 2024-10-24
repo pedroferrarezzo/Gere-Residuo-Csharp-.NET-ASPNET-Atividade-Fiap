@@ -8,9 +8,6 @@ import services.notificacao.CadastroNotificacaoService;
 import services.usuario.CadastroUsuarioService;
 
 public class NotificacaoHook {
-    @Getter
-    @Setter
-    private static String notificacaoCriadaId;
     private static final CadastroUsuarioService cadastroUsuarioService = new CadastroUsuarioService();
     private static final CadastroNotificacaoService cadastroNotificacaoService = new CadastroNotificacaoService();
     private static final String emailAdminBaseTeste = "adminbaseteste@gereresiduo.com.br";
@@ -19,6 +16,7 @@ public class NotificacaoHook {
     @After(value = "@HOOK_CLEAN_NOTIFICACAO_AFTER_SCENARIO", order = 3)
     public static void afterExcluirAgendaCriada() {
         String tokenJwt = cadastroUsuarioService.authenticateUsuario("/api/v1/Usuario/Login", emailAdminBaseTeste, senhaAdminBaseTeste);
-        cadastroNotificacaoService.deleteNotificacao("/api/v1/Notificacao", tokenJwt, notificacaoCriadaId);
+        cadastroNotificacaoService.setNotificacaoId("/api/v1/Notificacao");
+        cadastroNotificacaoService.deleteNotificacao("/api/v1/Notificacao", tokenJwt);
     }
 }

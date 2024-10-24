@@ -33,6 +33,7 @@ public class CadastroNotificacaoService {
     @Setter
     private static int agendaId;
     private int notificacaoId;
+    private NotificacaoModel notificacaoDaAgenda;
     @Getter
     @Setter
     private static String tokenJwt;
@@ -53,13 +54,13 @@ public class CadastroNotificacaoService {
         Type listNotificacaoType = new TypeToken<List<NotificacaoModel>>() {}.getType();
         List<NotificacaoModel> notificacoes = gson.fromJson(response.jsonPath().prettify(), listNotificacaoType);
 
-        Optional<NotificacaoModel> notificacaoDaAgenda = notificacoes.stream()
+        Optional<NotificacaoModel> notificacaoRecuperada = notificacoes.stream()
                 .filter(notificacao -> notificacao.getAgendaDaNotificacao().getAgendaId() == agendaId)
                 .findFirst();
 
-        if (notificacaoDaAgenda.isPresent()) {
-            notificacaoId = notificacaoDaAgenda.get().getNotificacaoId();
-            NotificacaoHook.setNotificacaoCriadaId(String.valueOf(notificacaoDaAgenda.get().getNotificacaoId()));
+        if (notificacaoRecuperada.isPresent()) {
+            notificacaoDaAgenda = notificacaoRecuperada.get();
+            notificacaoId = notificacaoDaAgenda.getNotificacaoId();
         }
         else {
             throw new IllegalStateException("Agenda de ID: " + agendaId + " não gerou notificações!");
@@ -78,8 +79,8 @@ public class CadastroNotificacaoService {
                 .response();
     }
 
-    public void deleteNotificacao(String endpoint, String token, String id) {
-        String url = String.format("%s%s/%s", baseUrl, endpoint, id);
+    public void deleteNotificacao(String endpoint, String token) {
+        String url = String.format("%s%s/%s", baseUrl, endpoint, notificacaoId);
         response = given()
                 .header("Authorization", "Bearer " + token)
                 .accept(ContentType.JSON)

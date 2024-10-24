@@ -101,8 +101,8 @@ public class CadastroBairroService {
         }
     }
 
-    public void setBairroIdInvalido() {
-        bairroId = "0";
+    public void setBairroIdInvalido(int id) {
+        bairroId = String.valueOf(id);
     }
 
     public void deleteBairro(String endpoint) {

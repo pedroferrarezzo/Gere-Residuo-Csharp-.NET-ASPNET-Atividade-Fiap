@@ -38,3 +38,13 @@ Funcionalidade: Cadastro de novo BAIRRO
     Quando uma requisição POST for enviada para a rota "/api/v1/Bairro" de cadastro de bairro
     Então o status code que a API de cadastro de Bairro deve retornar é o 400
     E a API de cadastro de Bairro deve retornar um objeto JSON contendo uma mensagem de erro: "O nome do bairro é obrigatório!"
+
+  Cenário: Cadastro de bairro mal-sucedido ao especificar uma quantidade de lixeiras invalida
+    Dado que eu tenha os seguintes dados de bairro:
+      | atributo            | valor                          |
+      | bairroNome          | Bairro das Flores              |
+      | quantidadeLixeiras  | 0                              |
+      | pesoMedioLixeirasKg | 120                            |
+    Quando uma requisição POST for enviada para a rota "/api/v1/Bairro" de cadastro de bairro
+    Então o status code que a API de cadastro de Bairro deve retornar é o 400
+    E a API de cadastro de Bairro deve retornar um objeto JSON contendo uma mensagem de erro: "A quantidade de lixeiras deve ser um número positivo maior que 0."

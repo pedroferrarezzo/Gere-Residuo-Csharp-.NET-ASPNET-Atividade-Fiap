@@ -59,4 +59,19 @@ public class CadastroAgendaSteps {
         );
         Assert.assertTrue(errorModel.getErrorMessages().getFirst().startsWith(message));
     }
+
+    @E("a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro: {string}")
+    public void aAPIDeCadastroDeAgendaDeveRetornarUmObjetoJSONContendoUmaMensagemDeErro(String message) {
+        ErrorModel errorModel = cadastroAgendaService.getGson().fromJson(
+                cadastroAgendaService.getResponse().jsonPath().prettify(), ErrorModel.class
+        );
+        Assert.assertEquals(message, errorModel.getErrorMessages().getFirst());
+    }
+
+    @Quando("eu recuperar os IDs de caminhão e motorista, especificando um ID de bairro inválido")
+    public void euRecuperarOsIDsDeCaminhãoEMotoristaEspecificandoUmIDDeBairroInválido() {
+        cadastroAgendaService.setAtributoBairroIdInvalido();
+        cadastroAgendaService.setAtributoCaminhaoId();
+        cadastroAgendaService.setAtributoMotoristaId();
+    }
 }

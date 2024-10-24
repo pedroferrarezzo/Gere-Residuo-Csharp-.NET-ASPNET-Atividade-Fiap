@@ -63,7 +63,7 @@ Funcionalidade: Abertura de agenda
     E o JSON Schema de validação a ser usado contra a resposta da API de cadastro de Motorista é o "Cadastro de motorista bem-sucedido"
     Então a resposta da requisição da API de cadastro de Motorista deve estar em conformidade com o JSON Schema selecionado
 
-  @HOOK_CLEAN_AGENDA_AFTER_SCENARIO @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO
+  @HOOK_CLEAN_NOTIFICACAO_AFTER_SCENARIO @HOOK_CLEAN_AGENDA_AFTER_SCENARIO @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO
   Cenário: Cadastro de agenda bem-sucedido
     Dado que eu tenha os seguintes dados de agenda:
       | atributo            | valor                          |
@@ -91,3 +91,15 @@ Funcionalidade: Abertura de agenda
     Então uma requisição POST for enviada para a rota "/api/v1/Agenda" de cadastro de agenda
     E o status code que a API de cadastro de Agenda deve retornar é o 400
     Então a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro que começe com: "A data de agenda da coleta de lixo é menor que o dia de hoje"
+
+
+  @HOOK_CLEAN_BAIRRO_AFTER_SCENARIO @HOOK_CLEAN_MORADOR_AFTER_SCENARIO @HOOK_CLEAN_CAMINHAO_AFTER_SCENARIO @HOOK_CLEAN_MOTORISTA_AFTER_SCENARIO
+  Cenário: Cadastro de agenda mal-sucedido ao especificar um ID de bairro inválido
+    Dado que eu tenha os seguintes dados de agenda:
+      | atributo            | valor                          |
+      | diaColetaDeLixo     | 2026-10-25                     |
+      | tipoResiduo         | PLASTICO                       |
+    Quando eu recuperar os IDs de caminhão e motorista, especificando um ID de bairro inválido
+    Então uma requisição POST for enviada para a rota "/api/v1/Agenda" de cadastro de agenda
+    E o status code que a API de cadastro de Agenda deve retornar é o 400
+    Então a API de cadastro de Agenda deve retornar um objeto JSON contendo uma mensagem de erro: "O Id do bairro deve ser um número positivo maior que 0."

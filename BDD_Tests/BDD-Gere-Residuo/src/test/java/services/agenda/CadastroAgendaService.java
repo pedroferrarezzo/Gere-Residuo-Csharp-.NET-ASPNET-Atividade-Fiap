@@ -70,6 +70,10 @@ public class CadastroAgendaService {
         setAtributoAgenda("bairroId", getBairroId());
     }
 
+    public void setAtributoBairroIdInvalido() {
+        setAtributoAgenda("bairroId", 0);
+    }
+
     public void setAtributoCaminhaoId() {
         setAtributoAgenda("caminhaoId", getCaminhaoId());
     }
